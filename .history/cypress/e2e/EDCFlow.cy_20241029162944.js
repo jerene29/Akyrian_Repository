@@ -505,7 +505,7 @@ cy.wait(5000)
 //Click Accept-1
 cy.get('[data-cy="accept-reject-action"]').first().click({ force: true })
 //CLick Accept-2
-cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > [data-cy="verifier-container"] > [data-cy="verifier-input-container"] > [data-cy="question-input-container"] > .button-container > .hover-disabled > [data-cy="accept-data-entry-cm226tqch0kzg14evi17ksxwu"]').click()
+cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > [data-cy="verifier-container"] > [data-cy="verifier-input-container"] > [data-cy="question-input-container"] > .button-container > .hover-disabled > [data-cy="accept-data-entry-cm226tqgo0kzo14evx8adxtw7"]').click()
 //Click Accept-3
 cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > [data-cy="verifier-container"] > [data-cy="verifier-input-container"] > [data-cy="question-input-container"] > .button-container > .hover-disabled > [data-cy="accept-data-entry-cm226tqxy0l0z14ev4ggwb5pe"]').click()
 
@@ -513,7 +513,7 @@ cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="
 cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > [data-cy="verifier-container"] > [data-cy="verifier-input-container"] > [data-cy="question-input-container"] > .button-container > [data-cy="reject-data-entry"]').click()
 cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > :nth-child(1) > [data-cy="reject-reason"] > .ant-select > .ant-select-selector').click()
 cy.get('[class="ant-select-item-option-content"]').contains("No Source - Reject Answer").click()
-cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > :nth-child(1) > #button-reject-container > [data-cy="close-reject"]').click({ force: true })
+cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > :nth-child(1) > #button-reject-container > [data-cy="submit-reject-reason"]').click({ force: true })
 //Click Accept-4
 cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > [data-cy="verifier-container"] > [data-cy="verifier-input-container"] > [data-cy="question-input-container"] > .button-container > .hover-disabled > [data-cy="accept-data-entry-cm2bkklqd0acovx8avwnf6mpj"]').click()
 //Click Accept-5

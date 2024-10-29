@@ -513,7 +513,7 @@ cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="
 cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > [data-cy="verifier-container"] > [data-cy="verifier-input-container"] > [data-cy="question-input-container"] > .button-container > [data-cy="reject-data-entry"]').click()
 cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > :nth-child(1) > [data-cy="reject-reason"] > .ant-select > .ant-select-selector').click()
 cy.get('[class="ant-select-item-option-content"]').contains("No Source - Reject Answer").click()
-cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > :nth-child(1) > #button-reject-container > [data-cy="close-reject"]').click({ force: true })
+cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > :nth-child(1) > #button-reject-container > [data-cy="submit-reject-reason"]').click({ force: true })
 //Click Accept-4
 cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > [data-cy="verifier-container"] > [data-cy="verifier-input-container"] > [data-cy="question-input-container"] > .button-container > .hover-disabled > [data-cy="accept-data-entry-cm2bkklqd0acovx8avwnf6mpj"]').click()
 //Click Accept-5

@@ -1,4 +1,0 @@
-exports[`S-09-037 > Active Edit Mode on Visit > keyboard shortcut > checks if clicking outside while having unfinished business(editing error) should throw a toast notification, highlights the field in red border, and shaking animation #0`] =
-{
-  "borderColor": "rgb(255, 0, 0)"
-};
