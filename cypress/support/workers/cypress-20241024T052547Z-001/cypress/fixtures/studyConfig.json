@@ -1,0 +1,232 @@
+{
+  "createStudy": {
+    "studyName": "PFI-COVID-ARX20",
+    "studySubjectPharse": "Patient",
+    "studyProtocol": "Updated with Version",
+    "studyDescription": "Protocol: Revita 25"
+  },
+  "updateFFGOrderError": {
+    "data": {
+      "updateFFGFormConnectionOrder": {
+        "success": false,
+        "error": "Selected FFGForm does not exist. [E_FFGFormConnectionNotFound]",
+        "formFieldGroups": []
+      }
+    }
+  },
+  "questionGroups": [
+    {
+      "shortQuestion": "Q 3",
+      "question": "Q 3",
+      "oid": "Q_TREE_PARENT",
+      "keyword": "Q 3",
+      "noSouceNeeded": false,
+      "fields": [
+        {
+          "shortQuestion": "Q 3",
+          "question": "Q 3",
+          "oid": "Q_TREE",
+          "keyword": "Q 3",
+          "type": "freetext"
+        },
+        {
+          "shortQuestion": "Q 2",
+          "question": "Q 2",
+          "oid": "Q_TWO",
+          "keyword": "Q 2",
+          "type": "freetext"
+        },
+        {
+          "shortQuestion": "Q 1",
+          "question": "Q 1",
+          "oid": "Q_ONE",
+          "keyword": "Q 1",
+          "type": "freetext"
+        }
+      ]
+    },
+    {
+      "shortQuestion": "Q 6",
+      "question": "Q 6",
+      "oid": "Q_SIX_PARENT",
+      "keyword": "Q 6",
+      "noSouceNeeded": false,
+      "fields": [
+        {
+          "shortQuestion": "Q 6",
+          "question": "Q 6",
+          "oid": "Q_SIX",
+          "keyword": "Q 6",
+          "type": "freetext"
+        },
+        {
+          "shortQuestion": "Q 5",
+          "question": "Q 5",
+          "oid": "Q_FIVE",
+          "keyword": "Q 5",
+          "type": "freetext"
+        },
+        {
+          "shortQuestion": "Q 4",
+          "question": "Q 4",
+          "oid": "Q_FOUR",
+          "keyword": "Q 4",
+          "type": "freetext"
+        }
+      ]
+    },
+    {
+      "shortQuestion": "Q 9",
+      "question": "Q 9",
+      "oid": "Q_NINE_PARENT",
+      "keyword": "Q 9",
+      "noSouceNeeded": false,
+      "fields": [
+        {
+          "shortQuestion": "Q 9",
+          "question": "Q 9",
+          "oid": "Q_NINE",
+          "keyword": "Q 9",
+          "type": "freetext"
+        },
+        {
+          "shortQuestion": "Q 8",
+          "question": "Q 8",
+          "oid": "Q_EIGHT",
+          "keyword": "Q 8",
+          "type": "freetext"
+        },
+        {
+          "shortQuestion": "Q 7",
+          "question": "Q 7",
+          "oid": "Q_SEVEN",
+          "keyword": "Q 7",
+          "type": "freetext"
+        }
+      ]
+    },
+    {
+      "shortQuestion": "Q 12",
+      "question": "Q 12",
+      "oid": "Q_TWELVE_PARENT",
+      "keyword": "Q 12",
+      "noSouceNeeded": true,
+      "fields": [
+        {
+          "shortQuestion": "Q 12",
+          "question": "Q 12",
+          "oid": "Q_TWELVE",
+          "keyword": "Q 12",
+          "type": "freetext"
+        },
+        {
+          "shortQuestion": "Q 11",
+          "question": "Q 11",
+          "oid": "Q_ELEVEN",
+          "keyword": "Q 11",
+          "type": "freetext"
+        },
+        {
+          "shortQuestion": "Q 10",
+          "question": "Q 10",
+          "oid": "Q_TEN",
+          "keyword": "Q 10",
+          "type": "single-choice",
+          "childrenIndex": {
+            "field": [0],
+            "fg": []
+          }
+        }
+      ]
+    },
+    {
+      "shortQuestion": "Q 13",
+      "question": "Q 13",
+      "oid": "Q_THIRTEEN_PARENT",
+      "keyword": "Q 13",
+      "noSouceNeeded": false,
+      "fields": [
+        {
+          "shortQuestion": "Q 13",
+          "question": "Q 13",
+          "oid": "Q_THIRTEEN",
+          "keyword": "Q 13",
+          "type": "freetext"
+        }
+      ]
+    },
+    {
+      "shortQuestion": "Q 14",
+      "question": "Q 14",
+      "oid": "Q_FOURTEEN_PARENT",
+      "keyword": "Q 14",
+      "noSouceNeeded": false,
+      "fields": [
+        {
+          "shortQuestion": "Q 14",
+          "question": "Q 14",
+          "oid": "Q_FOURTEEN",
+          "keyword": "Q 14",
+          "type": "freetext"
+        }
+      ]
+    },
+    {
+      "shortQuestion": "Q 18",
+      "question": "Q 18",
+      "oid": "Q_EIGHTEEN_PARENT",
+      "keyword": "Q 18",
+      "noSouceNeeded": true,
+      "fields": [
+        {
+          "shortQuestion": "Q 18",
+          "question": "Q 18",
+          "oid": "Q_EIGHTEEN",
+          "keyword": "Q 18",
+          "type": "freetext"
+        },
+        {
+          "shortQuestion": "Q 17",
+          "question": "Q 17",
+          "oid": "Q_SEVENTEEN",
+          "keyword": "Q 17",
+          "type": "freetext"
+        },
+        {
+          "shortQuestion": "Q 16",
+          "question": "Q 16",
+          "oid": "Q_SIXTEEN",
+          "keyword": "Q 16",
+          "type": "freetext"
+        },
+        {
+          "shortQuestion": "Q 15",
+          "question": "Q 15",
+          "oid": "Q_FIFTEEN",
+          "keyword": "Q 15",
+          "type": "single-choice",
+          "childrenIndex": {
+            "field": [0, 1],
+            "fg": []
+          }
+        }
+      ]
+    },
+    {
+      "shortQuestion": "Q 19",
+      "question": "Q 19",
+      "oid": "Q_NINETEEN_PARENT",
+      "keyword": "Q 19",
+      "noSouceNeeded": false,
+      "fields": [
+        {
+          "shortQuestion": "Q 19",
+          "question": "Q 19",
+          "oid": "Q_NINETEEN",
+          "keyword": "Q 19",
+          "type": "freetext"
+        }
+      ]
+    }
+  ]
+}

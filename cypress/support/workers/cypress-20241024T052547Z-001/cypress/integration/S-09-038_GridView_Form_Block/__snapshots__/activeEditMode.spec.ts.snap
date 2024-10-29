@@ -1,0 +1,39 @@
+exports[`S-09-038 > Active Edit Mode on Form > validates form name > checks for blank field #0`] =
+{
+  "snapshot": "this field cannot be left blank"
+};
+
+exports[`S-09-038 > Active Edit Mode on Form > validates form name > checks for blank field #1`] =
+{
+  "snapshot": ""
+};
+
+exports[`S-09-038 > Active Edit Mode on Form > validates form name > checks alphanumeric validation #0`] =
+{
+  "snapshot": "can only contain letters, numbers and special characters: [space], -, _, #"
+};
+
+exports[`S-09-038 > Active Edit Mode on Form > validates form name > checks alphanumeric validation #1`] =
+{
+  "snapshot": ""
+};
+
+exports[`S-09-038 > Active Edit Mode on Form > validates form name > must contains non space #0`] =
+{
+  "snapshot": "you must enter at least one non-space character"
+};
+
+exports[`S-09-038 > Active Edit Mode on Form > validates form name > must contains non space #1`] =
+{
+  "snapshot": ""
+};
+
+exports[`S-09-038 > Active Edit Mode on Form > validates form name > checks the limit of the characters, max is 35 #0`] =
+{
+  "snapshot": "min 1 character, max 35 characters"
+};
+
+exports[`S-09-038 > Active Edit Mode on Form > validates form name > checks the limit of the characters, max is 35 #1`] =
+{
+  "snapshot": ""
+};

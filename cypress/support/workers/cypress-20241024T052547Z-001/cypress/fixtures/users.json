@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "ckm2dgm0d0179fzqp0ffzmwzy",
+      "email": "ed.murphy@stc.com",
+      "firstName": "Eddie",
+      "lastName": "Murphy",
+      "imageId": "https://i.pravatar.cc/300",
+      "photo": {
+        "id": "ckm2dgm0d0179fzqp0ffzmwzy",
+        "label": "Eddie handsome Murphy",
+        "thumbnail": "https://i.pravatar.cc/50"
+      }
+    },
+    {
+      "id": "ckm2dgm1p0186fzqpxksb6qxx",
+      "email": "el.cauffield@stc.com",
+      "firstName": "Ellen",
+      "lastName": "Cauffield",
+      "imageId": "https://i.pravatar.cc/300",
+      "photo": {
+        "id": "ckm2dgm1p0186fzqpxksb6qxx",
+        "label": "Ellen nurse Cauffield",
+        "thumbnail": "https://i.pravatar.cc/50"
+      }
+    },
+    {
+      "id": "ckm2dgm0d0fd9fzqp0ffzmwzy",
+      "email": "stark.murphy@stc.com",
+      "firstName": "Stark",
+      "lastName": "Murphy",
+      "imageId": "https://i.pravatar.cc/300",
+      "photo": {
+        "id": "ckm2dgm0d0fd9fzqp0ffzmwzy",
+        "label": "Stark not Murphy",
+        "thumbnail": "https://i.pravatar.cc/50"
+      }
+    }
+  ]
+}

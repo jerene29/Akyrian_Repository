@@ -1,0 +1,4717 @@
+{
+  "fieldGroups": [
+    {
+      "id": "fieldGroup1",
+      "name": "Patient Heartbeat",
+      "question": "Patient Heartbeat?",
+      "shortQuestion": "Heartbeat",
+      "order": 0,
+      "isMultiEntry": false,
+      "prepopulateFromPreviousVisit": false,
+      "requiresSourceCapture": true,
+      "keywords": "heart",
+      "createdAt": "2021-03-17T03:54:32.494Z",
+      "formId": "formId1",
+      "hasAuditTrail": true,
+      "hasUnreadAuditTrail": true,
+      "formFieldGroupResponse": {
+        "id": "fieldGroupResponseeee1",
+        "status": "MARKED_UP",
+        "visit": {
+          "id": "visitId1",
+          "status": "OCCURRED",
+          "visitDidNotOccurReason": null,
+          "visitDate": "2021-03-17T03:54:38.387Z",
+          "site": {
+            "id": "ckmcwuswm0224dqo9zz5t0zv1",
+            "name": "Bellevue Hospital",
+            "address": "462 First Avenue, Manhattan, New York, United States",
+            "zipCode": "10016",
+            "__typename": "Site"
+          },
+          "patientId": "ckmcwuugp3436dqo95vlli40r",
+          "patient": {
+            "id": "ckmcwuugp3436dqo95vlli40r",
+            "firstNameInitial": "F",
+            "middleNameInitial": "1",
+            "lastNameInitial": "M",
+            "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+            "patientStudyId": "789XYZ",
+            "studyId": "ckmcwut250238dqo94d05utk2",
+            "sitesAccess": [
+              {
+                "id": "ckmcwusv90217dqo9ytvju9d7",
+                "name": "University of Tokyo Hospital",
+                "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                "zipCode": "113-8655",
+                "__typename": "Site"
+              },
+              {
+                "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                "name": "Bellevue Hospital",
+                "address": "462 First Avenue, Manhattan, New York, United States",
+                "zipCode": "10016",
+                "__typename": "Site"
+              }
+            ],
+            "sex": "FEMALE",
+            "dob": "1998-12-11T00:00:00.000Z",
+            "createdAt": "2021-03-17T03:54:34.297Z",
+            "updatedAt": "2021-03-17T03:54:34.297Z",
+            "__typename": "Patient"
+          },
+          "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+          "visitTemplate": {
+            "id": "ckmcwut2l0365dqo9qtopo6o1",
+            "name": "Stomach Medication",
+            "forms": [
+              {
+                "id": "formId1",
+                "__typename": "Form"
+              },
+              {
+                "id": "ckmcwut2m0373dqo9nbnigq5k",
+                "__typename": "Form"
+              }
+            ],
+            "dayOffset": 5,
+            "isRelativeToMostRecentVisit": true,
+            "isAdHocVisitTemplate": false,
+            "isAdverseEvent": false,
+            "order": 2,
+            "studyRevision": {
+              "id": "ckmcwut260239dqo9uzb24f9u",
+              "__typename": "StudyRevision"
+            },
+            "createdAt": "2021-03-17T03:54:32.494Z",
+            "updatedAt": "2021-03-17T03:54:32.887Z",
+            "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+            "__typename": "VisitTemplate",
+            "visits": [
+              {
+                "id": "ckmcwuu753349dqo9rvx6kr37",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuu493325dqo986n4ojac",
+                "patient": {
+                  "id": "ckmcwuu493325dqo986n4ojac",
+                  "firstNameInitial": "M",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "L",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "321ABC",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "MALE",
+                  "dob": "1996-02-04T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:33.849Z",
+                  "updatedAt": "2021-03-17T03:54:33.850Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:33.954Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuujc3462dqo9ltiw2i7j",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuugp3436dqo95vlli40r",
+                "patient": {
+                  "id": "ckmcwuugp3436dqo95vlli40r",
+                  "firstNameInitial": "F",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "M",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "789XYZ",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    },
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1998-12-11T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.297Z",
+                  "updatedAt": "2021-03-17T03:54:34.297Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:34.393Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuuvp3574dqo985w3ijwi",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuusx3549dqo9bj9cgyl6",
+                "patient": {
+                  "id": "ckmcwuusx3549dqo9bj9cgyl6",
+                  "firstNameInitial": "T",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "K",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "456TKY",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1990-01-01T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.738Z",
+                  "updatedAt": "2021-03-17T03:54:34.738Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:34.837Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuv583654dqo9ux4pj661",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuu493325dqo986n4ojac",
+                "patient": {
+                  "id": "ckmcwuu493325dqo986n4ojac",
+                  "firstNameInitial": "M",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "L",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "321ABC",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "MALE",
+                  "dob": "1996-02-04T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:33.849Z",
+                  "updatedAt": "2021-03-17T03:54:33.850Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:35.181Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuvnp3741dqo9oibdd5m8",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuusx3549dqo9bj9cgyl6",
+                "patient": {
+                  "id": "ckmcwuusx3549dqo9bj9cgyl6",
+                  "firstNameInitial": "T",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "K",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "456TKY",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1990-01-01T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.738Z",
+                  "updatedAt": "2021-03-17T03:54:34.738Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:35.846Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "visitId1",
+                "status": "OCCURRED",
+                "visitDidNotOccurReason": null,
+                "visitDate": "2021-03-17T03:54:38.387Z",
+                "site": {
+                  "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                  "name": "Bellevue Hospital",
+                  "address": "462 First Avenue, Manhattan, New York, United States",
+                  "zipCode": "10016",
+                  "__typename": "Site"
+                },
+                "patientId": "ckmcwuugp3436dqo95vlli40r",
+                "patient": {
+                  "id": "ckmcwuugp3436dqo95vlli40r",
+                  "firstNameInitial": "F",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "M",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "789XYZ",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    },
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1998-12-11T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.297Z",
+                  "updatedAt": "2021-03-17T03:54:34.297Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:38.390Z",
+                "__typename": "Visit"
+              }
+            ]
+          },
+          "updatedAt": "2021-03-17T03:54:38.390Z",
+          "__typename": "Visit"
+        },
+        "visitId": "visitId1",
+        "isLocked": false,
+        "createdAt": "2021-03-17T03:54:38.490Z",
+        "updatedAt": "2021-03-17T03:54:38.642Z",
+        "isNotAvailable": false,
+        "formFieldNotAvailableReasonId": null,
+        "formFieldRejectedReasonId": null,
+        "markUpRejectedReasonId": null,
+        "markUpDetachReasonId": null,
+        "otherReason": null,
+        "formFieldGroup": {
+          "id": "fieldGroup1",
+          "name": "Patient Heartbeat",
+          "order": 0,
+          "isMultiEntry": false,
+          "prepopulateFromPreviousVisit": false,
+          "requiresSourceCapture": true,
+          "keywords": "heart",
+          "showFieldConditionId": null,
+          "createdAt": "2021-03-17T03:54:32.494Z",
+          "formId": "formId1",
+          "__typename": "FormFieldGroup"
+        },
+        "formFieldGroupId": "fieldGroup1",
+        "formFieldResponses": [],
+        "sourceCaptureResponses": [],
+        "markUpRegions": null,
+        "markUpImageUrl": null,
+        "parsedMarkUpRegions": [
+          {
+            "x": 13,
+            "y": 408,
+            "w": 608,
+            "h": 56
+          },
+          {
+            "x": 206,
+            "y": 632,
+            "w": 371,
+            "h": 69
+          }
+        ],
+        "rawDetectedTexts": "",
+        "processedDetectedTexts": "",
+        "detectedValue": null,
+        "sourceCapture": {
+          "id": "sc1",
+          "detectedTexts": "",
+          "manuallyRedacted": false,
+          "isVerified": false,
+          "image": {
+            "id": "imageId1",
+            "label": "Test image",
+            "thumbnail": "https://media.discordapp.net/attachments/788659803219951616/803962110912233472/unknown.png",
+            "width": 1039,
+            "height": 1787,
+            "fileId": "fileId1",
+            "createdAt": "2021-03-17T03:54:37.105Z",
+            "__typename": "Image"
+          },
+          "createdAt": "2021-03-17T03:54:38.589Z",
+          "updatedAt": "2021-03-17T03:54:38.589Z",
+          "imageId": "imageId1",
+          "formId": "formId1",
+          "visitId": "visitId1",
+          "__typename": "SourceCapture"
+        },
+        "sourceCaptureId": "sc1",
+        "markedBy": null,
+        "markedById": null,
+        "markedAt": null,
+        "__typename": "FormFieldGroupResponse"
+      },
+      "fields": [
+        {
+          "id": "field1",
+          "type": "FREE_TEXT",
+          "isMultiline": false,
+          "maxLength": 24,
+          "question": "Patient Heartbeat?",
+          "shortQuestion": "heartbeat",
+          "hint": "",
+          "keywords": "heart",
+          "formFieldGroupId": "fieldGroup1",
+          "prepopulateFromPreviousVisit": false,
+          "choices": [],
+          "formFieldResponses": [],
+          "__typename": "FormFieldVisitDetail"
+        }
+      ],
+      "__typename": "FieldGroupVisitDetail"
+    },
+    {
+      "id": "fieldGroup2",
+      "name": "Diastolic",
+      "question": "Diastolic?",
+      "shortQuestion": "Heart",
+      "order": 0,
+      "isMultiEntry": false,
+      "prepopulateFromPreviousVisit": false,
+      "requiresSourceCapture": true,
+      "keywords": "heart",
+      "createdAt": "2021-03-17T03:54:32.494Z",
+      "formId": "formId2",
+      "hasAuditTrail": true,
+      "hasUnreadAuditTrail": true,
+      "formFieldGroupResponse": {
+        "id": "fieldGroupResponse2",
+        "status": "ATTACHED",
+        "visit": {
+          "id": "visitId1",
+          "status": "OCCURRED",
+          "visitDidNotOccurReason": null,
+          "visitDate": "2021-03-17T03:54:38.387Z",
+          "site": {
+            "id": "ckmcwuswm0224dqo9zz5t0zv1",
+            "name": "Bellevue Hospital",
+            "address": "462 First Avenue, Manhattan, New York, United States",
+            "zipCode": "10016",
+            "__typename": "Site"
+          },
+          "patientId": "ckmcwuugp3436dqo95vlli40r",
+          "patient": {
+            "id": "ckmcwuugp3436dqo95vlli40r",
+            "firstNameInitial": "F",
+            "middleNameInitial": "1",
+            "lastNameInitial": "M",
+            "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+            "patientStudyId": "789XYZ",
+            "studyId": "ckmcwut250238dqo94d05utk2",
+            "sitesAccess": [
+              {
+                "id": "ckmcwusv90217dqo9ytvju9d7",
+                "name": "University of Tokyo Hospital",
+                "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                "zipCode": "113-8655",
+                "__typename": "Site"
+              },
+              {
+                "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                "name": "Bellevue Hospital",
+                "address": "462 First Avenue, Manhattan, New York, United States",
+                "zipCode": "10016",
+                "__typename": "Site"
+              }
+            ],
+            "sex": "FEMALE",
+            "dob": "1998-12-11T00:00:00.000Z",
+            "createdAt": "2021-03-17T03:54:34.297Z",
+            "updatedAt": "2021-03-17T03:54:34.297Z",
+            "__typename": "Patient"
+          },
+          "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+          "visitTemplate": {
+            "id": "ckmcwut2l0365dqo9qtopo6o1",
+            "name": "Stomach Medication",
+            "forms": [
+              {
+                "id": "formId2",
+                "__typename": "Form"
+              },
+              {
+                "id": "ckmcwut2m0373dqo9nbnigq5k",
+                "__typename": "Form"
+              }
+            ],
+            "dayOffset": 5,
+            "isRelativeToMostRecentVisit": true,
+            "isAdHocVisitTemplate": false,
+            "isAdverseEvent": false,
+            "order": 2,
+            "studyRevision": {
+              "id": "ckmcwut260239dqo9uzb24f9u",
+              "__typename": "StudyRevision"
+            },
+            "createdAt": "2021-03-17T03:54:32.494Z",
+            "updatedAt": "2021-03-17T03:54:32.887Z",
+            "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+            "__typename": "VisitTemplate",
+            "visits": [
+              {
+                "id": "ckmcwuu753349dqo9rvx6kr37",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuu493325dqo986n4ojac",
+                "patient": {
+                  "id": "ckmcwuu493325dqo986n4ojac",
+                  "firstNameInitial": "M",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "L",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "321ABC",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "MALE",
+                  "dob": "1996-02-04T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:33.849Z",
+                  "updatedAt": "2021-03-17T03:54:33.850Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId2",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:33.954Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuujc3462dqo9ltiw2i7j",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuugp3436dqo95vlli40r",
+                "patient": {
+                  "id": "ckmcwuugp3436dqo95vlli40r",
+                  "firstNameInitial": "F",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "M",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "789XYZ",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    },
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1998-12-11T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.297Z",
+                  "updatedAt": "2021-03-17T03:54:34.297Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId2",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:34.393Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuuvp3574dqo985w3ijwi",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuusx3549dqo9bj9cgyl6",
+                "patient": {
+                  "id": "ckmcwuusx3549dqo9bj9cgyl6",
+                  "firstNameInitial": "T",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "K",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "456TKY",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1990-01-01T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.738Z",
+                  "updatedAt": "2021-03-17T03:54:34.738Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId2",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:34.837Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuv583654dqo9ux4pj661",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuu493325dqo986n4ojac",
+                "patient": {
+                  "id": "ckmcwuu493325dqo986n4ojac",
+                  "firstNameInitial": "M",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "L",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "321ABC",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "MALE",
+                  "dob": "1996-02-04T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:33.849Z",
+                  "updatedAt": "2021-03-17T03:54:33.850Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId2",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:35.181Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuvnp3741dqo9oibdd5m8",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuusx3549dqo9bj9cgyl6",
+                "patient": {
+                  "id": "ckmcwuusx3549dqo9bj9cgyl6",
+                  "firstNameInitial": "T",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "K",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "456TKY",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1990-01-01T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.738Z",
+                  "updatedAt": "2021-03-17T03:54:34.738Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId2",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:35.846Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "visitId1",
+                "status": "OCCURRED",
+                "visitDidNotOccurReason": null,
+                "visitDate": "2021-03-17T03:54:38.387Z",
+                "site": {
+                  "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                  "name": "Bellevue Hospital",
+                  "address": "462 First Avenue, Manhattan, New York, United States",
+                  "zipCode": "10016",
+                  "__typename": "Site"
+                },
+                "patientId": "ckmcwuugp3436dqo95vlli40r",
+                "patient": {
+                  "id": "ckmcwuugp3436dqo95vlli40r",
+                  "firstNameInitial": "F",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "M",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "789XYZ",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    },
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1998-12-11T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.297Z",
+                  "updatedAt": "2021-03-17T03:54:34.297Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId2",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:38.390Z",
+                "__typename": "Visit"
+              }
+            ]
+          },
+          "updatedAt": "2021-03-17T03:54:38.390Z",
+          "__typename": "Visit"
+        },
+        "visitId": "visitId1",
+        "isLocked": false,
+        "createdAt": "2021-03-17T03:54:38.490Z",
+        "updatedAt": "2021-03-17T03:54:38.642Z",
+        "isNotAvailable": false,
+        "formFieldNotAvailableReasonId": null,
+        "formFieldRejectedReasonId": null,
+        "markUpRejectedReasonId": null,
+        "markUpDetachReasonId": null,
+        "otherReason": null,
+        "formFieldGroup": {
+          "id": "fieldGroup2",
+          "name": "Diastolic",
+          "order": 0,
+          "isMultiEntry": false,
+          "prepopulateFromPreviousVisit": false,
+          "requiresSourceCapture": true,
+          "keywords": "heart",
+          "showFieldConditionId": null,
+          "createdAt": "2021-03-17T03:54:32.494Z",
+          "formId": "formId2",
+          "__typename": "FormFieldGroup"
+        },
+        "formFieldGroupId": "fieldGroup2",
+        "formFieldResponses": [],
+        "sourceCaptureResponses": [],
+        "markUpRegions": null,
+        "markUpImageUrl": null,
+        "parsedMarkUpRegions": [],
+        "rawDetectedTexts": "",
+        "processedDetectedTexts": "",
+        "detectedValue": null,
+        "sourceCapture": {
+          "id": "sc1",
+          "detectedTexts": "",
+          "manuallyRedacted": false,
+          "isVerified": false,
+          "image": {
+            "id": "imageId1",
+            "label": "Test image",
+            "thumbnail": "https://media.discordapp.net/attachments/788659803219951616/803962110912233472/unknown.png",
+            "width": 1039,
+            "height": 1787,
+            "fileId": "fileId1",
+            "createdAt": "2021-03-17T03:54:37.105Z",
+            "__typename": "Image"
+          },
+          "createdAt": "2021-03-17T03:54:38.589Z",
+          "updatedAt": "2021-03-17T03:54:38.589Z",
+          "imageId": "imageId1",
+          "formId": "formId2",
+          "visitId": "visitId1",
+          "__typename": "SourceCapture"
+        },
+        "sourceCaptureId": "sc1",
+        "markedBy": null,
+        "markedById": null,
+        "markedAt": null,
+        "__typename": "FormFieldGroupResponse"
+      },
+      "fields": [
+        {
+          "id": "field2",
+          "type": "FREE_TEXT",
+          "isMultiline": false,
+          "maxLength": 24,
+          "question": "Diastolic?",
+          "shortQuestion": "heartbeat",
+          "hint": "",
+          "keywords": "heart",
+          "formFieldGroupId": "fieldGroup2",
+          "prepopulateFromPreviousVisit": false,
+          "choices": [],
+          "formFieldResponses": [],
+          "__typename": "FormFieldVisitDetail"
+        }
+      ],
+      "__typename": "FieldGroupVisitDetail"
+    },
+    {
+      "id": "fieldGroup3",
+      "name": "Patient Liver",
+      "question": "Patient Liver?",
+      "shortQuestion": "Liver",
+      "order": 0,
+      "isMultiEntry": false,
+      "prepopulateFromPreviousVisit": false,
+      "requiresSourceCapture": true,
+      "keywords": "heart",
+      "createdAt": "2021-03-17T03:54:32.494Z",
+      "formId": "formId1",
+      "hasAuditTrail": true,
+      "hasUnreadAuditTrail": true,
+      "formFieldGroupResponse": {
+        "id": "fieldGroupResponse4",
+        "status": "UNATTACHED",
+        "visit": {
+          "id": "visitId1",
+          "status": "OCCURRED",
+          "visitDidNotOccurReason": null,
+          "visitDate": "2021-03-17T03:54:38.387Z",
+          "site": {
+            "id": "ckmcwuswm0224dqo9zz5t0zv1",
+            "name": "Bellevue Hospital",
+            "address": "462 First Avenue, Manhattan, New York, United States",
+            "zipCode": "10016",
+            "__typename": "Site"
+          },
+          "patientId": "ckmcwuugp3436dqo95vlli40r",
+          "patient": {
+            "id": "ckmcwuugp3436dqo95vlli40r",
+            "firstNameInitial": "F",
+            "middleNameInitial": "1",
+            "lastNameInitial": "M",
+            "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+            "patientStudyId": "789XYZ",
+            "studyId": "ckmcwut250238dqo94d05utk2",
+            "sitesAccess": [
+              {
+                "id": "ckmcwusv90217dqo9ytvju9d7",
+                "name": "University of Tokyo Hospital",
+                "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                "zipCode": "113-8655",
+                "__typename": "Site"
+              },
+              {
+                "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                "name": "Bellevue Hospital",
+                "address": "462 First Avenue, Manhattan, New York, United States",
+                "zipCode": "10016",
+                "__typename": "Site"
+              }
+            ],
+            "sex": "FEMALE",
+            "dob": "1998-12-11T00:00:00.000Z",
+            "createdAt": "2021-03-17T03:54:34.297Z",
+            "updatedAt": "2021-03-17T03:54:34.297Z",
+            "__typename": "Patient"
+          },
+          "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+          "visitTemplate": {
+            "id": "ckmcwut2l0365dqo9qtopo6o1",
+            "name": "Stomach Medication",
+            "forms": [
+              {
+                "id": "formId1",
+                "__typename": "Form"
+              },
+              {
+                "id": "ckmcwut2m0373dqo9nbnigq5k",
+                "__typename": "Form"
+              }
+            ],
+            "dayOffset": 5,
+            "isRelativeToMostRecentVisit": true,
+            "isAdHocVisitTemplate": false,
+            "isAdverseEvent": false,
+            "order": 2,
+            "studyRevision": {
+              "id": "ckmcwut260239dqo9uzb24f9u",
+              "__typename": "StudyRevision"
+            },
+            "createdAt": "2021-03-17T03:54:32.494Z",
+            "updatedAt": "2021-03-17T03:54:32.887Z",
+            "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+            "__typename": "VisitTemplate",
+            "visits": [
+              {
+                "id": "ckmcwuu753349dqo9rvx6kr37",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuu493325dqo986n4ojac",
+                "patient": {
+                  "id": "ckmcwuu493325dqo986n4ojac",
+                  "firstNameInitial": "M",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "L",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "321ABC",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "MALE",
+                  "dob": "1996-02-04T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:33.849Z",
+                  "updatedAt": "2021-03-17T03:54:33.850Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:33.954Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuujc3462dqo9ltiw2i7j",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuugp3436dqo95vlli40r",
+                "patient": {
+                  "id": "ckmcwuugp3436dqo95vlli40r",
+                  "firstNameInitial": "F",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "M",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "789XYZ",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    },
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1998-12-11T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.297Z",
+                  "updatedAt": "2021-03-17T03:54:34.297Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:34.393Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuuvp3574dqo985w3ijwi",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuusx3549dqo9bj9cgyl6",
+                "patient": {
+                  "id": "ckmcwuusx3549dqo9bj9cgyl6",
+                  "firstNameInitial": "T",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "K",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "456TKY",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1990-01-01T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.738Z",
+                  "updatedAt": "2021-03-17T03:54:34.738Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:34.837Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuv583654dqo9ux4pj661",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuu493325dqo986n4ojac",
+                "patient": {
+                  "id": "ckmcwuu493325dqo986n4ojac",
+                  "firstNameInitial": "M",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "L",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "321ABC",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "MALE",
+                  "dob": "1996-02-04T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:33.849Z",
+                  "updatedAt": "2021-03-17T03:54:33.850Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:35.181Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuvnp3741dqo9oibdd5m8",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuusx3549dqo9bj9cgyl6",
+                "patient": {
+                  "id": "ckmcwuusx3549dqo9bj9cgyl6",
+                  "firstNameInitial": "T",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "K",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "456TKY",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1990-01-01T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.738Z",
+                  "updatedAt": "2021-03-17T03:54:34.738Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:35.846Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "visitId1",
+                "status": "OCCURRED",
+                "visitDidNotOccurReason": null,
+                "visitDate": "2021-03-17T03:54:38.387Z",
+                "site": {
+                  "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                  "name": "Bellevue Hospital",
+                  "address": "462 First Avenue, Manhattan, New York, United States",
+                  "zipCode": "10016",
+                  "__typename": "Site"
+                },
+                "patientId": "ckmcwuugp3436dqo95vlli40r",
+                "patient": {
+                  "id": "ckmcwuugp3436dqo95vlli40r",
+                  "firstNameInitial": "F",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "M",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "789XYZ",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    },
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1998-12-11T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.297Z",
+                  "updatedAt": "2021-03-17T03:54:34.297Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:38.390Z",
+                "__typename": "Visit"
+              }
+            ]
+          },
+          "updatedAt": "2021-03-17T03:54:38.390Z",
+          "__typename": "Visit"
+        },
+        "visitId": "visitId1",
+        "isLocked": false,
+        "createdAt": "2021-03-17T03:54:38.490Z",
+        "updatedAt": "2021-03-17T03:54:38.642Z",
+        "isNotAvailable": false,
+        "formFieldNotAvailableReasonId": null,
+        "formFieldRejectedReasonId": null,
+        "markUpRejectedReasonId": null,
+        "markUpDetachReasonId": null,
+        "otherReason": null,
+        "formFieldGroup": {
+          "id": "fieldGroup1",
+          "name": "Patient Heartbeat",
+          "order": 0,
+          "isMultiEntry": false,
+          "prepopulateFromPreviousVisit": false,
+          "requiresSourceCapture": true,
+          "keywords": "heart",
+          "showFieldConditionId": null,
+          "createdAt": "2021-03-17T03:54:32.494Z",
+          "formId": "formId1",
+          "__typename": "FormFieldGroup"
+        },
+        "formFieldGroupId": "fieldGroup1",
+        "formFieldResponses": [],
+        "sourceCaptureResponses": [],
+        "markUpRegions": null,
+        "markUpImageUrl": null,
+        "parsedMarkUpRegions": [],
+        "rawDetectedTexts": "",
+        "processedDetectedTexts": "",
+        "detectedValue": null,
+        "sourceCapture": {
+          "id": "sc1",
+          "detectedTexts": "",
+          "manuallyRedacted": false,
+          "isVerified": false,
+          "image": {
+            "id": "imageId1",
+            "label": "Test image",
+            "thumbnail": "https://media.discordapp.net/attachments/788659803219951616/803962110912233472/unknown.png",
+            "width": 1039,
+            "height": 1787,
+            "fileId": "fileId1",
+            "createdAt": "2021-03-17T03:54:37.105Z",
+            "__typename": "Image"
+          },
+          "createdAt": "2021-03-17T03:54:38.589Z",
+          "updatedAt": "2021-03-17T03:54:38.589Z",
+          "imageId": "imageId1",
+          "formId": "formId1",
+          "visitId": "visitId1",
+          "__typename": "SourceCapture"
+        },
+        "sourceCaptureId": "sc1",
+        "markedBy": null,
+        "markedById": null,
+        "markedAt": null,
+        "__typename": "FormFieldGroupResponse"
+      },
+      "fields": [
+        {
+          "id": "field1",
+          "type": "FREE_TEXT",
+          "isMultiline": false,
+          "maxLength": 24,
+          "question": "Patient Heartbeat?",
+          "shortQuestion": "heartbeat",
+          "hint": "",
+          "keywords": "heart",
+          "formFieldGroupId": "fieldGroup1",
+          "prepopulateFromPreviousVisit": false,
+          "choices": [],
+          "formFieldResponses": [],
+          "__typename": "FormFieldVisitDetail"
+        }
+      ],
+      "__typename": "FieldGroupVisitDetail"
+    },
+    {
+      "id": "fieldGroup4",
+      "name": "Patient Brain",
+      "question": "Patient Brain?",
+      "shortQuestion": "Brain",
+      "order": 0,
+      "isMultiEntry": false,
+      "prepopulateFromPreviousVisit": false,
+      "requiresSourceCapture": true,
+      "keywords": "heart",
+      "createdAt": "2021-03-17T03:54:32.494Z",
+      "formId": "formId1",
+      "hasAuditTrail": true,
+      "hasUnreadAuditTrail": true,
+      "formFieldGroupResponse": {
+        "id": "fieldGroupResponse6",
+        "status": "UNATTACHED",
+        "visit": {
+          "id": "visitId1",
+          "status": "OCCURRED",
+          "visitDidNotOccurReason": null,
+          "visitDate": "2021-03-17T03:54:38.387Z",
+          "site": {
+            "id": "ckmcwuswm0224dqo9zz5t0zv1",
+            "name": "Bellevue Hospital",
+            "address": "462 First Avenue, Manhattan, New York, United States",
+            "zipCode": "10016",
+            "__typename": "Site"
+          },
+          "patientId": "ckmcwuugp3436dqo95vlli40r",
+          "patient": {
+            "id": "ckmcwuugp3436dqo95vlli40r",
+            "firstNameInitial": "F",
+            "middleNameInitial": "1",
+            "lastNameInitial": "M",
+            "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+            "patientStudyId": "789XYZ",
+            "studyId": "ckmcwut250238dqo94d05utk2",
+            "sitesAccess": [
+              {
+                "id": "ckmcwusv90217dqo9ytvju9d7",
+                "name": "University of Tokyo Hospital",
+                "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                "zipCode": "113-8655",
+                "__typename": "Site"
+              },
+              {
+                "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                "name": "Bellevue Hospital",
+                "address": "462 First Avenue, Manhattan, New York, United States",
+                "zipCode": "10016",
+                "__typename": "Site"
+              }
+            ],
+            "sex": "FEMALE",
+            "dob": "1998-12-11T00:00:00.000Z",
+            "createdAt": "2021-03-17T03:54:34.297Z",
+            "updatedAt": "2021-03-17T03:54:34.297Z",
+            "__typename": "Patient"
+          },
+          "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+          "visitTemplate": {
+            "id": "ckmcwut2l0365dqo9qtopo6o1",
+            "name": "Stomach Medication",
+            "forms": [
+              {
+                "id": "formId1",
+                "__typename": "Form"
+              },
+              {
+                "id": "ckmcwut2m0373dqo9nbnigq5k",
+                "__typename": "Form"
+              }
+            ],
+            "dayOffset": 5,
+            "isRelativeToMostRecentVisit": true,
+            "isAdHocVisitTemplate": false,
+            "isAdverseEvent": false,
+            "order": 2,
+            "studyRevision": {
+              "id": "ckmcwut260239dqo9uzb24f9u",
+              "__typename": "StudyRevision"
+            },
+            "createdAt": "2021-03-17T03:54:32.494Z",
+            "updatedAt": "2021-03-17T03:54:32.887Z",
+            "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+            "__typename": "VisitTemplate",
+            "visits": [
+              {
+                "id": "ckmcwuu753349dqo9rvx6kr37",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuu493325dqo986n4ojac",
+                "patient": {
+                  "id": "ckmcwuu493325dqo986n4ojac",
+                  "firstNameInitial": "M",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "L",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "321ABC",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "MALE",
+                  "dob": "1996-02-04T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:33.849Z",
+                  "updatedAt": "2021-03-17T03:54:33.850Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:33.954Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuujc3462dqo9ltiw2i7j",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuugp3436dqo95vlli40r",
+                "patient": {
+                  "id": "ckmcwuugp3436dqo95vlli40r",
+                  "firstNameInitial": "F",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "M",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "789XYZ",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    },
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1998-12-11T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.297Z",
+                  "updatedAt": "2021-03-17T03:54:34.297Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:34.393Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuuvp3574dqo985w3ijwi",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuusx3549dqo9bj9cgyl6",
+                "patient": {
+                  "id": "ckmcwuusx3549dqo9bj9cgyl6",
+                  "firstNameInitial": "T",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "K",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "456TKY",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1990-01-01T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.738Z",
+                  "updatedAt": "2021-03-17T03:54:34.738Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:34.837Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuv583654dqo9ux4pj661",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuu493325dqo986n4ojac",
+                "patient": {
+                  "id": "ckmcwuu493325dqo986n4ojac",
+                  "firstNameInitial": "M",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "L",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "321ABC",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "MALE",
+                  "dob": "1996-02-04T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:33.849Z",
+                  "updatedAt": "2021-03-17T03:54:33.850Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:35.181Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuvnp3741dqo9oibdd5m8",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuusx3549dqo9bj9cgyl6",
+                "patient": {
+                  "id": "ckmcwuusx3549dqo9bj9cgyl6",
+                  "firstNameInitial": "T",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "K",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "456TKY",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1990-01-01T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.738Z",
+                  "updatedAt": "2021-03-17T03:54:34.738Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:35.846Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "visitId1",
+                "status": "OCCURRED",
+                "visitDidNotOccurReason": null,
+                "visitDate": "2021-03-17T03:54:38.387Z",
+                "site": {
+                  "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                  "name": "Bellevue Hospital",
+                  "address": "462 First Avenue, Manhattan, New York, United States",
+                  "zipCode": "10016",
+                  "__typename": "Site"
+                },
+                "patientId": "ckmcwuugp3436dqo95vlli40r",
+                "patient": {
+                  "id": "ckmcwuugp3436dqo95vlli40r",
+                  "firstNameInitial": "F",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "M",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "789XYZ",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    },
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1998-12-11T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.297Z",
+                  "updatedAt": "2021-03-17T03:54:34.297Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:38.390Z",
+                "__typename": "Visit"
+              }
+            ]
+          },
+          "updatedAt": "2021-03-17T03:54:38.390Z",
+          "__typename": "Visit"
+        },
+        "visitId": "visitId1",
+        "isLocked": false,
+        "createdAt": "2021-03-17T03:54:38.490Z",
+        "updatedAt": "2021-03-17T03:54:38.642Z",
+        "isNotAvailable": false,
+        "formFieldNotAvailableReasonId": null,
+        "formFieldRejectedReasonId": null,
+        "markUpRejectedReasonId": null,
+        "markUpDetachReasonId": null,
+        "otherReason": null,
+        "formFieldGroup": {
+          "id": "fieldGroup1",
+          "name": "Patient Heartbeat",
+          "order": 0,
+          "isMultiEntry": false,
+          "prepopulateFromPreviousVisit": false,
+          "requiresSourceCapture": true,
+          "keywords": "heart",
+          "showFieldConditionId": null,
+          "createdAt": "2021-03-17T03:54:32.494Z",
+          "formId": "formId1",
+          "__typename": "FormFieldGroup"
+        },
+        "formFieldGroupId": "fieldGroup1",
+        "formFieldResponses": [],
+        "sourceCaptureResponses": [],
+        "markUpRegions": null,
+        "markUpImageUrl": null,
+        "parsedMarkUpRegions": [],
+        "rawDetectedTexts": "",
+        "processedDetectedTexts": "",
+        "detectedValue": null,
+        "sourceCapture": {
+          "id": "sc1",
+          "detectedTexts": "",
+          "manuallyRedacted": false,
+          "isVerified": false,
+          "image": {
+            "id": "imageId1",
+            "label": "Test image",
+            "thumbnail": "https://media.discordapp.net/attachments/788659803219951616/803962110912233472/unknown.png",
+            "width": 1039,
+            "height": 1787,
+            "fileId": "fileId1",
+            "createdAt": "2021-03-17T03:54:37.105Z",
+            "__typename": "Image"
+          },
+          "createdAt": "2021-03-17T03:54:38.589Z",
+          "updatedAt": "2021-03-17T03:54:38.589Z",
+          "imageId": "imageId1",
+          "formId": "formId1",
+          "visitId": "visitId1",
+          "__typename": "SourceCapture"
+        },
+        "sourceCaptureId": "sc1",
+        "markedBy": null,
+        "markedById": null,
+        "markedAt": null,
+        "__typename": "FormFieldGroupResponse"
+      },
+      "fields": [
+        {
+          "id": "field1",
+          "type": "FREE_TEXT",
+          "isMultiline": false,
+          "maxLength": 24,
+          "question": "Patient Heartbeat?",
+          "shortQuestion": "heartbeat",
+          "hint": "",
+          "keywords": "heart",
+          "formFieldGroupId": "fieldGroup1",
+          "prepopulateFromPreviousVisit": false,
+          "choices": [],
+          "formFieldResponses": [],
+          "__typename": "FormFieldVisitDetail"
+        }
+      ],
+      "__typename": "FieldGroupVisitDetail"
+    },
+    {
+      "id": "fieldGroup5",
+      "name": "Patient Kidney",
+      "question": "Patient Kidney?",
+      "shortQuestion": "Kidney",
+      "order": 0,
+      "isMultiEntry": false,
+      "prepopulateFromPreviousVisit": false,
+      "requiresSourceCapture": true,
+      "keywords": "kidney",
+      "createdAt": "2021-03-17T03:54:32.494Z",
+      "formId": "formId1",
+      "hasAuditTrail": true,
+      "hasUnreadAuditTrail": true,
+      "formFieldGroupResponse": {
+        "id": "fieldGroupResponse7",
+        "status": "MARK_UP_REJECTED",
+        "visit": {
+          "id": "visitId1",
+          "status": "OCCURRED",
+          "visitDidNotOccurReason": null,
+          "visitDate": "2021-03-17T03:54:38.387Z",
+          "site": {
+            "id": "ckmcwuswm0224dqo9zz5t0zv1",
+            "name": "Bellevue Hospital",
+            "address": "462 First Avenue, Manhattan, New York, United States",
+            "zipCode": "10016",
+            "__typename": "Site"
+          },
+          "patientId": "ckmcwuugp3436dqo95vlli40r",
+          "patient": {
+            "id": "ckmcwuugp3436dqo95vlli40r",
+            "firstNameInitial": "F",
+            "middleNameInitial": "1",
+            "lastNameInitial": "M",
+            "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+            "patientStudyId": "789XYZ",
+            "studyId": "ckmcwut250238dqo94d05utk2",
+            "sitesAccess": [
+              {
+                "id": "ckmcwusv90217dqo9ytvju9d7",
+                "name": "University of Tokyo Hospital",
+                "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                "zipCode": "113-8655",
+                "__typename": "Site"
+              },
+              {
+                "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                "name": "Bellevue Hospital",
+                "address": "462 First Avenue, Manhattan, New York, United States",
+                "zipCode": "10016",
+                "__typename": "Site"
+              }
+            ],
+            "sex": "FEMALE",
+            "dob": "1998-12-11T00:00:00.000Z",
+            "createdAt": "2021-03-17T03:54:34.297Z",
+            "updatedAt": "2021-03-17T03:54:34.297Z",
+            "__typename": "Patient"
+          },
+          "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+          "visitTemplate": {
+            "id": "ckmcwut2l0365dqo9qtopo6o1",
+            "name": "Stomach Medication",
+            "forms": [
+              {
+                "id": "formId1",
+                "__typename": "Form"
+              },
+              {
+                "id": "ckmcwut2m0373dqo9nbnigq5k",
+                "__typename": "Form"
+              }
+            ],
+            "dayOffset": 5,
+            "isRelativeToMostRecentVisit": true,
+            "isAdHocVisitTemplate": false,
+            "isAdverseEvent": false,
+            "order": 2,
+            "studyRevision": {
+              "id": "ckmcwut260239dqo9uzb24f9u",
+              "__typename": "StudyRevision"
+            },
+            "createdAt": "2021-03-17T03:54:32.494Z",
+            "updatedAt": "2021-03-17T03:54:32.887Z",
+            "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+            "__typename": "VisitTemplate",
+            "visits": [
+              {
+                "id": "ckmcwuu753349dqo9rvx6kr37",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuu493325dqo986n4ojac",
+                "patient": {
+                  "id": "ckmcwuu493325dqo986n4ojac",
+                  "firstNameInitial": "M",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "L",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "321ABC",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "MALE",
+                  "dob": "1996-02-04T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:33.849Z",
+                  "updatedAt": "2021-03-17T03:54:33.850Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:33.954Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuujc3462dqo9ltiw2i7j",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuugp3436dqo95vlli40r",
+                "patient": {
+                  "id": "ckmcwuugp3436dqo95vlli40r",
+                  "firstNameInitial": "F",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "M",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "789XYZ",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    },
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1998-12-11T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.297Z",
+                  "updatedAt": "2021-03-17T03:54:34.297Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:34.393Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuuvp3574dqo985w3ijwi",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuusx3549dqo9bj9cgyl6",
+                "patient": {
+                  "id": "ckmcwuusx3549dqo9bj9cgyl6",
+                  "firstNameInitial": "T",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "K",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "456TKY",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1990-01-01T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.738Z",
+                  "updatedAt": "2021-03-17T03:54:34.738Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:34.837Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuv583654dqo9ux4pj661",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuu493325dqo986n4ojac",
+                "patient": {
+                  "id": "ckmcwuu493325dqo986n4ojac",
+                  "firstNameInitial": "M",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "L",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "321ABC",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "MALE",
+                  "dob": "1996-02-04T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:33.849Z",
+                  "updatedAt": "2021-03-17T03:54:33.850Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:35.181Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuvnp3741dqo9oibdd5m8",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuusx3549dqo9bj9cgyl6",
+                "patient": {
+                  "id": "ckmcwuusx3549dqo9bj9cgyl6",
+                  "firstNameInitial": "T",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "K",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "456TKY",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1990-01-01T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.738Z",
+                  "updatedAt": "2021-03-17T03:54:34.738Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:35.846Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "visitId1",
+                "status": "OCCURRED",
+                "visitDidNotOccurReason": null,
+                "visitDate": "2021-03-17T03:54:38.387Z",
+                "site": {
+                  "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                  "name": "Bellevue Hospital",
+                  "address": "462 First Avenue, Manhattan, New York, United States",
+                  "zipCode": "10016",
+                  "__typename": "Site"
+                },
+                "patientId": "ckmcwuugp3436dqo95vlli40r",
+                "patient": {
+                  "id": "ckmcwuugp3436dqo95vlli40r",
+                  "firstNameInitial": "F",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "M",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "789XYZ",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    },
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1998-12-11T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.297Z",
+                  "updatedAt": "2021-03-17T03:54:34.297Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:38.390Z",
+                "__typename": "Visit"
+              }
+            ]
+          },
+          "updatedAt": "2021-03-17T03:54:38.390Z",
+          "__typename": "Visit"
+        },
+        "visitId": "visitId1",
+        "isLocked": false,
+        "createdAt": "2021-03-17T03:54:38.490Z",
+        "updatedAt": "2021-03-17T03:54:38.642Z",
+        "isNotAvailable": false,
+        "formFieldNotAvailableReasonId": null,
+        "formFieldRejectedReasonId": null,
+        "markUpRejectedReasonId": "retakeSC1",
+        "markUpDetachReasonId": null,
+        "otherReason": null,
+        "formFieldGroup": {
+          "id": "fieldGroup1",
+          "name": "Patient Heartbeat",
+          "order": 0,
+          "isMultiEntry": false,
+          "prepopulateFromPreviousVisit": false,
+          "requiresSourceCapture": true,
+          "keywords": "heart",
+          "showFieldConditionId": null,
+          "createdAt": "2021-03-17T03:54:32.494Z",
+          "formId": "formId1",
+          "__typename": "FormFieldGroup"
+        },
+        "formFieldGroupId": "fieldGroup1",
+        "formFieldResponses": [],
+        "sourceCaptureResponses": [],
+        "markUpRegions": null,
+        "markUpImageUrl": null,
+
+        "parsedMarkUpRegions": [
+          {
+            "x": 116,
+            "y": 118,
+            "w": 249,
+            "h": 44
+          },
+          {
+            "x": 973,
+            "y": 408,
+            "w": 277,
+            "h": 72
+          },
+          {
+            "x": 1082,
+            "y": 601,
+            "w": 287,
+            "h": 112
+          }
+        ],
+        "rawDetectedTexts": "",
+        "processedDetectedTexts": "",
+        "detectedValue": null,
+        "sourceCapture": {
+          "id": "sc1",
+          "detectedTexts": "",
+          "manuallyRedacted": false,
+          "isVerified": false,
+          "image": {
+            "id": "imageId1",
+            "label": "Test image",
+            "thumbnail": "https://media.discordapp.net/attachments/788659803219951616/803962110912233472/unknown.png",
+            "width": 1039,
+            "height": 1787,
+            "fileId": "fileId1",
+            "createdAt": "2021-03-17T03:54:37.105Z",
+            "__typename": "Image"
+          },
+          "createdAt": "2021-03-17T03:54:38.589Z",
+          "updatedAt": "2021-03-17T03:54:38.589Z",
+          "imageId": "imageId1",
+          "formId": "formId1",
+          "visitId": "visitId1",
+          "__typename": "SourceCapture"
+        },
+        "sourceCaptureId": "sc1",
+        "markedBy": null,
+        "markedById": null,
+        "markedAt": null,
+        "__typename": "FormFieldGroupResponse"
+      },
+      "fields": [
+        {
+          "id": "field1",
+          "type": "FREE_TEXT",
+          "isMultiline": false,
+          "maxLength": 24,
+          "question": "Patient Heartbeat?",
+          "shortQuestion": "heartbeat",
+          "hint": "",
+          "keywords": "heart",
+          "formFieldGroupId": "fieldGroup1",
+          "prepopulateFromPreviousVisit": false,
+          "choices": [],
+          "formFieldResponses": [],
+          "__typename": "FormFieldVisitDetail"
+        }
+      ],
+      "__typename": "FieldGroupVisitDetail"
+    },
+    {
+      "id": "fieldGroup6",
+      "name": "Patient Lungs",
+      "question": "Patient Lungs?",
+      "shortQuestion": "Lungs",
+      "order": 0,
+      "isMultiEntry": false,
+      "prepopulateFromPreviousVisit": false,
+      "requiresSourceCapture": true,
+      "keywords": "lungs",
+      "createdAt": "2021-03-17T03:54:32.494Z",
+      "formId": "formId1",
+      "hasAuditTrail": true,
+      "hasUnreadAuditTrail": true,
+      "formFieldGroupResponse": {
+        "id": "fieldGroupResponse8",
+        "status": "ATTACHED",
+        "visit": {
+          "id": "visitId1",
+          "status": "OCCURRED",
+          "visitDidNotOccurReason": null,
+          "visitDate": "2021-03-17T03:54:38.387Z",
+          "site": {
+            "id": "ckmcwuswm0224dqo9zz5t0zv1",
+            "name": "Bellevue Hospital",
+            "address": "462 First Avenue, Manhattan, New York, United States",
+            "zipCode": "10016",
+            "__typename": "Site"
+          },
+          "patientId": "ckmcwuugp3436dqo95vlli40r",
+          "patient": {
+            "id": "ckmcwuugp3436dqo95vlli40r",
+            "firstNameInitial": "F",
+            "middleNameInitial": "1",
+            "lastNameInitial": "M",
+            "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+            "patientStudyId": "789XYZ",
+            "studyId": "ckmcwut250238dqo94d05utk2",
+            "sitesAccess": [
+              {
+                "id": "ckmcwusv90217dqo9ytvju9d7",
+                "name": "University of Tokyo Hospital",
+                "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                "zipCode": "113-8655",
+                "__typename": "Site"
+              },
+              {
+                "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                "name": "Bellevue Hospital",
+                "address": "462 First Avenue, Manhattan, New York, United States",
+                "zipCode": "10016",
+                "__typename": "Site"
+              }
+            ],
+            "sex": "FEMALE",
+            "dob": "1998-12-11T00:00:00.000Z",
+            "createdAt": "2021-03-17T03:54:34.297Z",
+            "updatedAt": "2021-03-17T03:54:34.297Z",
+            "__typename": "Patient"
+          },
+          "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+          "visitTemplate": {
+            "id": "ckmcwut2l0365dqo9qtopo6o1",
+            "name": "Stomach Medication",
+            "forms": [
+              {
+                "id": "formId1",
+                "__typename": "Form"
+              },
+              {
+                "id": "ckmcwut2m0373dqo9nbnigq5k",
+                "__typename": "Form"
+              }
+            ],
+            "dayOffset": 5,
+            "isRelativeToMostRecentVisit": true,
+            "isAdHocVisitTemplate": false,
+            "isAdverseEvent": false,
+            "order": 2,
+            "studyRevision": {
+              "id": "ckmcwut260239dqo9uzb24f9u",
+              "__typename": "StudyRevision"
+            },
+            "createdAt": "2021-03-17T03:54:32.494Z",
+            "updatedAt": "2021-03-17T03:54:32.887Z",
+            "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+            "__typename": "VisitTemplate",
+            "visits": [
+              {
+                "id": "ckmcwuu753349dqo9rvx6kr37",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuu493325dqo986n4ojac",
+                "patient": {
+                  "id": "ckmcwuu493325dqo986n4ojac",
+                  "firstNameInitial": "M",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "L",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "321ABC",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "MALE",
+                  "dob": "1996-02-04T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:33.849Z",
+                  "updatedAt": "2021-03-17T03:54:33.850Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:33.954Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuujc3462dqo9ltiw2i7j",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuugp3436dqo95vlli40r",
+                "patient": {
+                  "id": "ckmcwuugp3436dqo95vlli40r",
+                  "firstNameInitial": "F",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "M",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "789XYZ",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    },
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1998-12-11T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.297Z",
+                  "updatedAt": "2021-03-17T03:54:34.297Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:34.393Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuuvp3574dqo985w3ijwi",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuusx3549dqo9bj9cgyl6",
+                "patient": {
+                  "id": "ckmcwuusx3549dqo9bj9cgyl6",
+                  "firstNameInitial": "T",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "K",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "456TKY",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1990-01-01T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.738Z",
+                  "updatedAt": "2021-03-17T03:54:34.738Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:34.837Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuv583654dqo9ux4pj661",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuu493325dqo986n4ojac",
+                "patient": {
+                  "id": "ckmcwuu493325dqo986n4ojac",
+                  "firstNameInitial": "M",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "L",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "321ABC",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "MALE",
+                  "dob": "1996-02-04T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:33.849Z",
+                  "updatedAt": "2021-03-17T03:54:33.850Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:35.181Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "ckmcwuvnp3741dqo9oibdd5m8",
+                "status": "UNSET",
+                "visitDidNotOccurReason": null,
+                "visitDate": null,
+                "site": null,
+                "patientId": "ckmcwuusx3549dqo9bj9cgyl6",
+                "patient": {
+                  "id": "ckmcwuusx3549dqo9bj9cgyl6",
+                  "firstNameInitial": "T",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "K",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "456TKY",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1990-01-01T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.738Z",
+                  "updatedAt": "2021-03-17T03:54:34.738Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:35.846Z",
+                "__typename": "Visit"
+              },
+              {
+                "id": "visitId1",
+                "status": "OCCURRED",
+                "visitDidNotOccurReason": null,
+                "visitDate": "2021-03-17T03:54:38.387Z",
+                "site": {
+                  "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                  "name": "Bellevue Hospital",
+                  "address": "462 First Avenue, Manhattan, New York, United States",
+                  "zipCode": "10016",
+                  "__typename": "Site"
+                },
+                "patientId": "ckmcwuugp3436dqo95vlli40r",
+                "patient": {
+                  "id": "ckmcwuugp3436dqo95vlli40r",
+                  "firstNameInitial": "F",
+                  "middleNameInitial": "1",
+                  "lastNameInitial": "M",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "patientStudyId": "789XYZ",
+                  "studyId": "ckmcwut250238dqo94d05utk2",
+                  "sitesAccess": [
+                    {
+                      "id": "ckmcwusv90217dqo9ytvju9d7",
+                      "name": "University of Tokyo Hospital",
+                      "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                      "zipCode": "113-8655",
+                      "__typename": "Site"
+                    },
+                    {
+                      "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                      "name": "Bellevue Hospital",
+                      "address": "462 First Avenue, Manhattan, New York, United States",
+                      "zipCode": "10016",
+                      "__typename": "Site"
+                    }
+                  ],
+                  "sex": "FEMALE",
+                  "dob": "1998-12-11T00:00:00.000Z",
+                  "createdAt": "2021-03-17T03:54:34.297Z",
+                  "updatedAt": "2021-03-17T03:54:34.297Z",
+                  "__typename": "Patient"
+                },
+                "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                "visitTemplate": {
+                  "id": "ckmcwut2l0365dqo9qtopo6o1",
+                  "name": "Stomach Medication",
+                  "forms": [
+                    {
+                      "id": "formId1",
+                      "__typename": "Form"
+                    },
+                    {
+                      "id": "ckmcwut2m0373dqo9nbnigq5k",
+                      "__typename": "Form"
+                    }
+                  ],
+                  "dayOffset": 5,
+                  "isRelativeToMostRecentVisit": true,
+                  "isAdHocVisitTemplate": false,
+                  "isAdverseEvent": false,
+                  "order": 2,
+                  "studyRevision": {
+                    "id": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "StudyRevision"
+                  },
+                  "createdAt": "2021-03-17T03:54:32.494Z",
+                  "updatedAt": "2021-03-17T03:54:32.887Z",
+                  "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                  "__typename": "VisitTemplate"
+                },
+                "updatedAt": "2021-03-17T03:54:38.390Z",
+                "__typename": "Visit"
+              }
+            ]
+          },
+          "updatedAt": "2021-03-17T03:54:38.390Z",
+          "__typename": "Visit"
+        },
+        "visitId": "visitId1",
+        "isLocked": false,
+        "createdAt": "2021-03-17T03:54:38.490Z",
+        "updatedAt": "2021-03-17T03:54:38.642Z",
+        "isNotAvailable": false,
+        "formFieldNotAvailableReasonId": null,
+        "formFieldRejectedReasonId": null,
+        "markUpRejectedReasonId": "retakeSC1",
+        "markUpDetachReasonId": null,
+        "otherReason": null,
+        "formFieldGroup": {
+          "id": "fieldGroup1",
+          "name": "Patient Heartbeat",
+          "order": 0,
+          "isMultiEntry": false,
+          "prepopulateFromPreviousVisit": false,
+          "requiresSourceCapture": true,
+          "keywords": "heart",
+          "showFieldConditionId": null,
+          "createdAt": "2021-03-17T03:54:32.494Z",
+          "formId": "formId1",
+          "__typename": "FormFieldGroup"
+        },
+        "formFieldGroupId": "fieldGroup1",
+        "formFieldResponses": [],
+        "sourceCaptureResponses": [],
+        "markUpRegions": null,
+        "markUpImageUrl": null,
+
+        "parsedMarkUpRegions": [],
+        "rawDetectedTexts": "",
+        "processedDetectedTexts": "",
+        "detectedValue": null,
+        "sourceCapture": {
+          "id": "sc1",
+          "detectedTexts": "",
+          "manuallyRedacted": false,
+          "isVerified": false,
+          "image": {
+            "id": "imageId1",
+            "label": "Test image",
+            "thumbnail": "https://media.discordapp.net/attachments/788659803219951616/803962110912233472/unknown.png",
+            "width": 1039,
+            "height": 1787,
+            "fileId": "fileId1",
+            "createdAt": "2021-03-17T03:54:37.105Z",
+            "__typename": "Image"
+          },
+          "createdAt": "2021-03-17T03:54:38.589Z",
+          "updatedAt": "2021-03-17T03:54:38.589Z",
+          "imageId": "imageId1",
+          "formId": "formId1",
+          "visitId": "visitId1",
+          "__typename": "SourceCapture"
+        },
+        "sourceCaptureId": "sc1",
+        "markedBy": null,
+        "markedById": null,
+        "markedAt": null,
+        "__typename": "FormFieldGroupResponse"
+      },
+      "fields": [
+        {
+          "id": "field1",
+          "type": "FREE_TEXT",
+          "isMultiline": false,
+          "maxLength": 24,
+          "question": "Patient Heartbeat?",
+          "shortQuestion": "heartbeat",
+          "hint": "",
+          "keywords": "heart",
+          "formFieldGroupId": "fieldGroup1",
+          "prepopulateFromPreviousVisit": false,
+          "choices": [],
+          "formFieldResponses": [],
+          "__typename": "FormFieldVisitDetail"
+        }
+      ],
+      "__typename": "FieldGroupVisitDetail"
+    }
+  ],
+  "sourceCaptures": [
+    {
+      "id": "sc1",
+      "detectedTexts": "",
+      "manuallyRedacted": false,
+      "isVerified": false,
+      "image": {
+        "id": "imageId1",
+        "label": "Test image",
+        "thumbnail": "https://media.discordapp.net/attachments/788659803219951616/803962110912233472/unknown.png",
+        "width": 1039,
+        "height": 1787,
+        "fileId": "fileId1",
+        "createdAt": "2021-03-17T03:54:37.105Z",
+        "__typename": "Image"
+      },
+      "createdAt": "2021-03-17T03:54:38.589Z",
+      "updatedAt": "2021-03-17T03:54:38.589Z",
+      "imageId": "imageId1",
+      "formId": "formId1",
+      "visitId": "visitId1",
+      "formFieldGroupResponses": [
+        {
+          "id": "fieldGroupResponse1",
+          "status": "MARKED_UP",
+          "visit": {
+            "id": "visitId1",
+            "status": "OCCURRED",
+            "visitDidNotOccurReason": null,
+            "visitDate": "2021-03-17T03:54:38.387Z",
+            "site": {
+              "id": "ckmcwuswm0224dqo9zz5t0zv1",
+              "name": "Bellevue Hospital",
+              "address": "462 First Avenue, Manhattan, New York, United States",
+              "zipCode": "10016",
+              "__typename": "Site"
+            },
+            "patientId": "ckmcwuugp3436dqo95vlli40r",
+            "patient": {
+              "id": "ckmcwuugp3436dqo95vlli40r",
+              "firstNameInitial": "F",
+              "middleNameInitial": "1",
+              "lastNameInitial": "M",
+              "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+              "patientStudyId": "789XYZ",
+              "studyId": "ckmcwut250238dqo94d05utk2",
+              "sitesAccess": [
+                {
+                  "id": "ckmcwusv90217dqo9ytvju9d7",
+                  "name": "University of Tokyo Hospital",
+                  "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                  "zipCode": "113-8655",
+                  "__typename": "Site"
+                },
+                {
+                  "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                  "name": "Bellevue Hospital",
+                  "address": "462 First Avenue, Manhattan, New York, United States",
+                  "zipCode": "10016",
+                  "__typename": "Site"
+                }
+              ],
+              "sex": "FEMALE",
+              "dob": "1998-12-11T00:00:00.000Z",
+              "createdAt": "2021-03-17T03:54:34.297Z",
+              "updatedAt": "2021-03-17T03:54:34.297Z",
+              "__typename": "Patient"
+            },
+            "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+            "visitTemplate": {
+              "id": "ckmcwut2l0365dqo9qtopo6o1",
+              "name": "Stomach Medication",
+              "forms": [
+                {
+                  "id": "formId1",
+                  "__typename": "Form"
+                },
+                {
+                  "id": "ckmcwut2m0373dqo9nbnigq5k",
+                  "__typename": "Form"
+                }
+              ],
+              "dayOffset": 5,
+              "isRelativeToMostRecentVisit": true,
+              "isAdHocVisitTemplate": false,
+              "isAdverseEvent": false,
+              "order": 2,
+              "studyRevision": {
+                "id": "ckmcwut260239dqo9uzb24f9u",
+                "__typename": "StudyRevision"
+              },
+              "createdAt": "2021-03-17T03:54:32.494Z",
+              "updatedAt": "2021-03-17T03:54:32.887Z",
+              "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+              "__typename": "VisitTemplate",
+              "visits": [
+                {
+                  "id": "ckmcwuu753349dqo9rvx6kr37",
+                  "status": "UNSET",
+                  "visitDidNotOccurReason": null,
+                  "visitDate": null,
+                  "site": null,
+                  "patientId": "ckmcwuu493325dqo986n4ojac",
+                  "patient": {
+                    "id": "ckmcwuu493325dqo986n4ojac",
+                    "firstNameInitial": "M",
+                    "middleNameInitial": "1",
+                    "lastNameInitial": "L",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "patientStudyId": "321ABC",
+                    "studyId": "ckmcwut250238dqo94d05utk2",
+                    "sitesAccess": [
+                      {
+                        "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                        "name": "Bellevue Hospital",
+                        "address": "462 First Avenue, Manhattan, New York, United States",
+                        "zipCode": "10016",
+                        "__typename": "Site"
+                      }
+                    ],
+                    "sex": "MALE",
+                    "dob": "1996-02-04T00:00:00.000Z",
+                    "createdAt": "2021-03-17T03:54:33.849Z",
+                    "updatedAt": "2021-03-17T03:54:33.850Z",
+                    "__typename": "Patient"
+                  },
+                  "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                  "visitTemplate": {
+                    "id": "ckmcwut2l0365dqo9qtopo6o1",
+                    "name": "Stomach Medication",
+                    "forms": [
+                      {
+                        "id": "formId1",
+                        "__typename": "Form"
+                      },
+                      {
+                        "id": "ckmcwut2m0373dqo9nbnigq5k",
+                        "__typename": "Form"
+                      }
+                    ],
+                    "dayOffset": 5,
+                    "isRelativeToMostRecentVisit": true,
+                    "isAdHocVisitTemplate": false,
+                    "isAdverseEvent": false,
+                    "order": 2,
+                    "studyRevision": {
+                      "id": "ckmcwut260239dqo9uzb24f9u",
+                      "__typename": "StudyRevision"
+                    },
+                    "createdAt": "2021-03-17T03:54:32.494Z",
+                    "updatedAt": "2021-03-17T03:54:32.887Z",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "VisitTemplate"
+                  },
+                  "updatedAt": "2021-03-17T03:54:33.954Z",
+                  "__typename": "Visit"
+                },
+                {
+                  "id": "ckmcwuujc3462dqo9ltiw2i7j",
+                  "status": "UNSET",
+                  "visitDidNotOccurReason": null,
+                  "visitDate": null,
+                  "site": null,
+                  "patientId": "ckmcwuugp3436dqo95vlli40r",
+                  "patient": {
+                    "id": "ckmcwuugp3436dqo95vlli40r",
+                    "firstNameInitial": "F",
+                    "middleNameInitial": "1",
+                    "lastNameInitial": "M",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "patientStudyId": "789XYZ",
+                    "studyId": "ckmcwut250238dqo94d05utk2",
+                    "sitesAccess": [
+                      {
+                        "id": "ckmcwusv90217dqo9ytvju9d7",
+                        "name": "University of Tokyo Hospital",
+                        "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                        "zipCode": "113-8655",
+                        "__typename": "Site"
+                      },
+                      {
+                        "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                        "name": "Bellevue Hospital",
+                        "address": "462 First Avenue, Manhattan, New York, United States",
+                        "zipCode": "10016",
+                        "__typename": "Site"
+                      }
+                    ],
+                    "sex": "FEMALE",
+                    "dob": "1998-12-11T00:00:00.000Z",
+                    "createdAt": "2021-03-17T03:54:34.297Z",
+                    "updatedAt": "2021-03-17T03:54:34.297Z",
+                    "__typename": "Patient"
+                  },
+                  "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                  "visitTemplate": {
+                    "id": "ckmcwut2l0365dqo9qtopo6o1",
+                    "name": "Stomach Medication",
+                    "forms": [
+                      {
+                        "id": "formId1",
+                        "__typename": "Form"
+                      },
+                      {
+                        "id": "ckmcwut2m0373dqo9nbnigq5k",
+                        "__typename": "Form"
+                      }
+                    ],
+                    "dayOffset": 5,
+                    "isRelativeToMostRecentVisit": true,
+                    "isAdHocVisitTemplate": false,
+                    "isAdverseEvent": false,
+                    "order": 2,
+                    "studyRevision": {
+                      "id": "ckmcwut260239dqo9uzb24f9u",
+                      "__typename": "StudyRevision"
+                    },
+                    "createdAt": "2021-03-17T03:54:32.494Z",
+                    "updatedAt": "2021-03-17T03:54:32.887Z",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "VisitTemplate"
+                  },
+                  "updatedAt": "2021-03-17T03:54:34.393Z",
+                  "__typename": "Visit"
+                },
+                {
+                  "id": "ckmcwuuvp3574dqo985w3ijwi",
+                  "status": "UNSET",
+                  "visitDidNotOccurReason": null,
+                  "visitDate": null,
+                  "site": null,
+                  "patientId": "ckmcwuusx3549dqo9bj9cgyl6",
+                  "patient": {
+                    "id": "ckmcwuusx3549dqo9bj9cgyl6",
+                    "firstNameInitial": "T",
+                    "middleNameInitial": "1",
+                    "lastNameInitial": "K",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "patientStudyId": "456TKY",
+                    "studyId": "ckmcwut250238dqo94d05utk2",
+                    "sitesAccess": [
+                      {
+                        "id": "ckmcwusv90217dqo9ytvju9d7",
+                        "name": "University of Tokyo Hospital",
+                        "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                        "zipCode": "113-8655",
+                        "__typename": "Site"
+                      }
+                    ],
+                    "sex": "FEMALE",
+                    "dob": "1990-01-01T00:00:00.000Z",
+                    "createdAt": "2021-03-17T03:54:34.738Z",
+                    "updatedAt": "2021-03-17T03:54:34.738Z",
+                    "__typename": "Patient"
+                  },
+                  "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                  "visitTemplate": {
+                    "id": "ckmcwut2l0365dqo9qtopo6o1",
+                    "name": "Stomach Medication",
+                    "forms": [
+                      {
+                        "id": "formId1",
+                        "__typename": "Form"
+                      },
+                      {
+                        "id": "ckmcwut2m0373dqo9nbnigq5k",
+                        "__typename": "Form"
+                      }
+                    ],
+                    "dayOffset": 5,
+                    "isRelativeToMostRecentVisit": true,
+                    "isAdHocVisitTemplate": false,
+                    "isAdverseEvent": false,
+                    "order": 2,
+                    "studyRevision": {
+                      "id": "ckmcwut260239dqo9uzb24f9u",
+                      "__typename": "StudyRevision"
+                    },
+                    "createdAt": "2021-03-17T03:54:32.494Z",
+                    "updatedAt": "2021-03-17T03:54:32.887Z",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "VisitTemplate"
+                  },
+                  "updatedAt": "2021-03-17T03:54:34.837Z",
+                  "__typename": "Visit"
+                },
+                {
+                  "id": "ckmcwuv583654dqo9ux4pj661",
+                  "status": "UNSET",
+                  "visitDidNotOccurReason": null,
+                  "visitDate": null,
+                  "site": null,
+                  "patientId": "ckmcwuu493325dqo986n4ojac",
+                  "patient": {
+                    "id": "ckmcwuu493325dqo986n4ojac",
+                    "firstNameInitial": "M",
+                    "middleNameInitial": "1",
+                    "lastNameInitial": "L",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "patientStudyId": "321ABC",
+                    "studyId": "ckmcwut250238dqo94d05utk2",
+                    "sitesAccess": [
+                      {
+                        "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                        "name": "Bellevue Hospital",
+                        "address": "462 First Avenue, Manhattan, New York, United States",
+                        "zipCode": "10016",
+                        "__typename": "Site"
+                      }
+                    ],
+                    "sex": "MALE",
+                    "dob": "1996-02-04T00:00:00.000Z",
+                    "createdAt": "2021-03-17T03:54:33.849Z",
+                    "updatedAt": "2021-03-17T03:54:33.850Z",
+                    "__typename": "Patient"
+                  },
+                  "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                  "visitTemplate": {
+                    "id": "ckmcwut2l0365dqo9qtopo6o1",
+                    "name": "Stomach Medication",
+                    "forms": [
+                      {
+                        "id": "formId1",
+                        "__typename": "Form"
+                      },
+                      {
+                        "id": "ckmcwut2m0373dqo9nbnigq5k",
+                        "__typename": "Form"
+                      }
+                    ],
+                    "dayOffset": 5,
+                    "isRelativeToMostRecentVisit": true,
+                    "isAdHocVisitTemplate": false,
+                    "isAdverseEvent": false,
+                    "order": 2,
+                    "studyRevision": {
+                      "id": "ckmcwut260239dqo9uzb24f9u",
+                      "__typename": "StudyRevision"
+                    },
+                    "createdAt": "2021-03-17T03:54:32.494Z",
+                    "updatedAt": "2021-03-17T03:54:32.887Z",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "VisitTemplate"
+                  },
+                  "updatedAt": "2021-03-17T03:54:35.181Z",
+                  "__typename": "Visit"
+                },
+                {
+                  "id": "ckmcwuvnp3741dqo9oibdd5m8",
+                  "status": "UNSET",
+                  "visitDidNotOccurReason": null,
+                  "visitDate": null,
+                  "site": null,
+                  "patientId": "ckmcwuusx3549dqo9bj9cgyl6",
+                  "patient": {
+                    "id": "ckmcwuusx3549dqo9bj9cgyl6",
+                    "firstNameInitial": "T",
+                    "middleNameInitial": "1",
+                    "lastNameInitial": "K",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "patientStudyId": "456TKY",
+                    "studyId": "ckmcwut250238dqo94d05utk2",
+                    "sitesAccess": [
+                      {
+                        "id": "ckmcwusv90217dqo9ytvju9d7",
+                        "name": "University of Tokyo Hospital",
+                        "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                        "zipCode": "113-8655",
+                        "__typename": "Site"
+                      }
+                    ],
+                    "sex": "FEMALE",
+                    "dob": "1990-01-01T00:00:00.000Z",
+                    "createdAt": "2021-03-17T03:54:34.738Z",
+                    "updatedAt": "2021-03-17T03:54:34.738Z",
+                    "__typename": "Patient"
+                  },
+                  "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                  "visitTemplate": {
+                    "id": "ckmcwut2l0365dqo9qtopo6o1",
+                    "name": "Stomach Medication",
+                    "forms": [
+                      {
+                        "id": "formId1",
+                        "__typename": "Form"
+                      },
+                      {
+                        "id": "ckmcwut2m0373dqo9nbnigq5k",
+                        "__typename": "Form"
+                      }
+                    ],
+                    "dayOffset": 5,
+                    "isRelativeToMostRecentVisit": true,
+                    "isAdHocVisitTemplate": false,
+                    "isAdverseEvent": false,
+                    "order": 2,
+                    "studyRevision": {
+                      "id": "ckmcwut260239dqo9uzb24f9u",
+                      "__typename": "StudyRevision"
+                    },
+                    "createdAt": "2021-03-17T03:54:32.494Z",
+                    "updatedAt": "2021-03-17T03:54:32.887Z",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "VisitTemplate"
+                  },
+                  "updatedAt": "2021-03-17T03:54:35.846Z",
+                  "__typename": "Visit"
+                },
+                {
+                  "id": "visitId1",
+                  "status": "OCCURRED",
+                  "visitDidNotOccurReason": null,
+                  "visitDate": "2021-03-17T03:54:38.387Z",
+                  "site": {
+                    "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                    "name": "Bellevue Hospital",
+                    "address": "462 First Avenue, Manhattan, New York, United States",
+                    "zipCode": "10016",
+                    "__typename": "Site"
+                  },
+                  "patientId": "ckmcwuugp3436dqo95vlli40r",
+                  "patient": {
+                    "id": "ckmcwuugp3436dqo95vlli40r",
+                    "firstNameInitial": "F",
+                    "middleNameInitial": "1",
+                    "lastNameInitial": "M",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "patientStudyId": "789XYZ",
+                    "studyId": "ckmcwut250238dqo94d05utk2",
+                    "sitesAccess": [
+                      {
+                        "id": "ckmcwusv90217dqo9ytvju9d7",
+                        "name": "University of Tokyo Hospital",
+                        "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                        "zipCode": "113-8655",
+                        "__typename": "Site"
+                      },
+                      {
+                        "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                        "name": "Bellevue Hospital",
+                        "address": "462 First Avenue, Manhattan, New York, United States",
+                        "zipCode": "10016",
+                        "__typename": "Site"
+                      }
+                    ],
+                    "sex": "FEMALE",
+                    "dob": "1998-12-11T00:00:00.000Z",
+                    "createdAt": "2021-03-17T03:54:34.297Z",
+                    "updatedAt": "2021-03-17T03:54:34.297Z",
+                    "__typename": "Patient"
+                  },
+                  "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                  "visitTemplate": {
+                    "id": "ckmcwut2l0365dqo9qtopo6o1",
+                    "name": "Stomach Medication",
+                    "forms": [
+                      {
+                        "id": "formId1",
+                        "__typename": "Form"
+                      },
+                      {
+                        "id": "ckmcwut2m0373dqo9nbnigq5k",
+                        "__typename": "Form"
+                      }
+                    ],
+                    "dayOffset": 5,
+                    "isRelativeToMostRecentVisit": true,
+                    "isAdHocVisitTemplate": false,
+                    "isAdverseEvent": false,
+                    "order": 2,
+                    "studyRevision": {
+                      "id": "ckmcwut260239dqo9uzb24f9u",
+                      "__typename": "StudyRevision"
+                    },
+                    "createdAt": "2021-03-17T03:54:32.494Z",
+                    "updatedAt": "2021-03-17T03:54:32.887Z",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "VisitTemplate"
+                  },
+                  "updatedAt": "2021-03-17T03:54:38.390Z",
+                  "__typename": "Visit"
+                }
+              ]
+            },
+            "updatedAt": "2021-03-17T03:54:38.390Z",
+            "__typename": "Visit"
+          },
+          "visitId": "visitId1",
+          "isLocked": false,
+          "createdAt": "2021-03-17T03:54:38.490Z",
+          "updatedAt": "2021-03-17T03:54:38.642Z",
+          "isNotAvailable": false,
+          "formFieldNotAvailableReasonId": null,
+          "formFieldRejectedReasonId": null,
+          "markUpRejectedReasonId": null,
+          "markUpDetachReasonId": null,
+          "otherReason": null,
+          "formFieldGroup": {
+            "id": "fieldGroup1",
+            "name": "Patient Heartbeat",
+            "order": 0,
+            "isMultiEntry": false,
+            "prepopulateFromPreviousVisit": false,
+            "requiresSourceCapture": true,
+            "keywords": "heart",
+            "showFieldConditionId": null,
+            "createdAt": "2021-03-17T03:54:32.494Z",
+            "formId": "formId1",
+            "__typename": "FormFieldGroup"
+          },
+          "formFieldGroupId": "fieldGroup1",
+          "formFieldResponses": [],
+          "sourceCaptureResponses": [],
+          "markUpRegions": null,
+          "markUpImageUrl": null,
+          "parsedMarkUpRegions": [
+            {
+              "x": 13,
+              "y": 408,
+              "w": 608,
+              "h": 56
+            },
+            {
+              "x": 206,
+              "y": 632,
+              "w": 371,
+              "h": 69
+            }
+          ],
+          "rawDetectedTexts": "",
+          "processedDetectedTexts": "",
+          "detectedValue": null,
+          "sourceCapture": {
+            "id": "sc1",
+            "detectedTexts": "",
+            "manuallyRedacted": false,
+            "isVerified": false,
+            "image": {
+              "id": "imageId1",
+              "label": "Test image",
+              "thumbnail": "https://media.discordapp.net/attachments/788659803219951616/803962110912233472/unknown.png",
+              "width": 1039,
+              "height": 1787,
+              "fileId": "fileId1",
+              "createdAt": "2021-03-17T03:54:37.105Z",
+              "__typename": "Image"
+            },
+            "createdAt": "2021-03-17T03:54:38.589Z",
+            "updatedAt": "2021-03-17T03:54:38.589Z",
+            "imageId": "imageId1",
+            "formId": "formId1",
+            "visitId": "visitId1",
+            "__typename": "SourceCapture"
+          },
+          "sourceCaptureId": "sc1",
+          "markedBy": null,
+          "markedById": null,
+          "markedAt": null,
+          "__typename": "FormFieldGroupResponse"
+        },
+        {
+          "id": "fieldGroupResponse2",
+          "status": "ATTACHED",
+          "visit": {
+            "id": "visitId1",
+            "status": "OCCURRED",
+            "visitDidNotOccurReason": null,
+            "visitDate": "2021-03-17T03:54:38.387Z",
+            "site": {
+              "id": "ckmcwuswm0224dqo9zz5t0zv1",
+              "name": "Bellevue Hospital",
+              "address": "462 First Avenue, Manhattan, New York, United States",
+              "zipCode": "10016",
+              "__typename": "Site"
+            },
+            "patientId": "ckmcwuugp3436dqo95vlli40r",
+            "patient": {
+              "id": "ckmcwuugp3436dqo95vlli40r",
+              "firstNameInitial": "F",
+              "middleNameInitial": "1",
+              "lastNameInitial": "M",
+              "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+              "patientStudyId": "789XYZ",
+              "studyId": "ckmcwut250238dqo94d05utk2",
+              "sitesAccess": [
+                {
+                  "id": "ckmcwusv90217dqo9ytvju9d7",
+                  "name": "University of Tokyo Hospital",
+                  "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                  "zipCode": "113-8655",
+                  "__typename": "Site"
+                },
+                {
+                  "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                  "name": "Bellevue Hospital",
+                  "address": "462 First Avenue, Manhattan, New York, United States",
+                  "zipCode": "10016",
+                  "__typename": "Site"
+                }
+              ],
+              "sex": "FEMALE",
+              "dob": "1998-12-11T00:00:00.000Z",
+              "createdAt": "2021-03-17T03:54:34.297Z",
+              "updatedAt": "2021-03-17T03:54:34.297Z",
+              "__typename": "Patient"
+            },
+            "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+            "visitTemplate": {
+              "id": "ckmcwut2l0365dqo9qtopo6o1",
+              "name": "Stomach Medication",
+              "forms": [
+                {
+                  "id": "formId2",
+                  "__typename": "Form"
+                },
+                {
+                  "id": "ckmcwut2m0373dqo9nbnigq5k",
+                  "__typename": "Form"
+                }
+              ],
+              "dayOffset": 5,
+              "isRelativeToMostRecentVisit": true,
+              "isAdHocVisitTemplate": false,
+              "isAdverseEvent": false,
+              "order": 2,
+              "studyRevision": {
+                "id": "ckmcwut260239dqo9uzb24f9u",
+                "__typename": "StudyRevision"
+              },
+              "createdAt": "2021-03-17T03:54:32.494Z",
+              "updatedAt": "2021-03-17T03:54:32.887Z",
+              "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+              "__typename": "VisitTemplate",
+              "visits": [
+                {
+                  "id": "ckmcwuu753349dqo9rvx6kr37",
+                  "status": "UNSET",
+                  "visitDidNotOccurReason": null,
+                  "visitDate": null,
+                  "site": null,
+                  "patientId": "ckmcwuu493325dqo986n4ojac",
+                  "patient": {
+                    "id": "ckmcwuu493325dqo986n4ojac",
+                    "firstNameInitial": "M",
+                    "middleNameInitial": "1",
+                    "lastNameInitial": "L",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "patientStudyId": "321ABC",
+                    "studyId": "ckmcwut250238dqo94d05utk2",
+                    "sitesAccess": [
+                      {
+                        "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                        "name": "Bellevue Hospital",
+                        "address": "462 First Avenue, Manhattan, New York, United States",
+                        "zipCode": "10016",
+                        "__typename": "Site"
+                      }
+                    ],
+                    "sex": "MALE",
+                    "dob": "1996-02-04T00:00:00.000Z",
+                    "createdAt": "2021-03-17T03:54:33.849Z",
+                    "updatedAt": "2021-03-17T03:54:33.850Z",
+                    "__typename": "Patient"
+                  },
+                  "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                  "visitTemplate": {
+                    "id": "ckmcwut2l0365dqo9qtopo6o1",
+                    "name": "Stomach Medication",
+                    "forms": [
+                      {
+                        "id": "formId2",
+                        "__typename": "Form"
+                      },
+                      {
+                        "id": "ckmcwut2m0373dqo9nbnigq5k",
+                        "__typename": "Form"
+                      }
+                    ],
+                    "dayOffset": 5,
+                    "isRelativeToMostRecentVisit": true,
+                    "isAdHocVisitTemplate": false,
+                    "isAdverseEvent": false,
+                    "order": 2,
+                    "studyRevision": {
+                      "id": "ckmcwut260239dqo9uzb24f9u",
+                      "__typename": "StudyRevision"
+                    },
+                    "createdAt": "2021-03-17T03:54:32.494Z",
+                    "updatedAt": "2021-03-17T03:54:32.887Z",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "VisitTemplate"
+                  },
+                  "updatedAt": "2021-03-17T03:54:33.954Z",
+                  "__typename": "Visit"
+                },
+                {
+                  "id": "ckmcwuujc3462dqo9ltiw2i7j",
+                  "status": "UNSET",
+                  "visitDidNotOccurReason": null,
+                  "visitDate": null,
+                  "site": null,
+                  "patientId": "ckmcwuugp3436dqo95vlli40r",
+                  "patient": {
+                    "id": "ckmcwuugp3436dqo95vlli40r",
+                    "firstNameInitial": "F",
+                    "middleNameInitial": "1",
+                    "lastNameInitial": "M",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "patientStudyId": "789XYZ",
+                    "studyId": "ckmcwut250238dqo94d05utk2",
+                    "sitesAccess": [
+                      {
+                        "id": "ckmcwusv90217dqo9ytvju9d7",
+                        "name": "University of Tokyo Hospital",
+                        "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                        "zipCode": "113-8655",
+                        "__typename": "Site"
+                      },
+                      {
+                        "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                        "name": "Bellevue Hospital",
+                        "address": "462 First Avenue, Manhattan, New York, United States",
+                        "zipCode": "10016",
+                        "__typename": "Site"
+                      }
+                    ],
+                    "sex": "FEMALE",
+                    "dob": "1998-12-11T00:00:00.000Z",
+                    "createdAt": "2021-03-17T03:54:34.297Z",
+                    "updatedAt": "2021-03-17T03:54:34.297Z",
+                    "__typename": "Patient"
+                  },
+                  "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                  "visitTemplate": {
+                    "id": "ckmcwut2l0365dqo9qtopo6o1",
+                    "name": "Stomach Medication",
+                    "forms": [
+                      {
+                        "id": "formId2",
+                        "__typename": "Form"
+                      },
+                      {
+                        "id": "ckmcwut2m0373dqo9nbnigq5k",
+                        "__typename": "Form"
+                      }
+                    ],
+                    "dayOffset": 5,
+                    "isRelativeToMostRecentVisit": true,
+                    "isAdHocVisitTemplate": false,
+                    "isAdverseEvent": false,
+                    "order": 2,
+                    "studyRevision": {
+                      "id": "ckmcwut260239dqo9uzb24f9u",
+                      "__typename": "StudyRevision"
+                    },
+                    "createdAt": "2021-03-17T03:54:32.494Z",
+                    "updatedAt": "2021-03-17T03:54:32.887Z",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "VisitTemplate"
+                  },
+                  "updatedAt": "2021-03-17T03:54:34.393Z",
+                  "__typename": "Visit"
+                },
+                {
+                  "id": "ckmcwuuvp3574dqo985w3ijwi",
+                  "status": "UNSET",
+                  "visitDidNotOccurReason": null,
+                  "visitDate": null,
+                  "site": null,
+                  "patientId": "ckmcwuusx3549dqo9bj9cgyl6",
+                  "patient": {
+                    "id": "ckmcwuusx3549dqo9bj9cgyl6",
+                    "firstNameInitial": "T",
+                    "middleNameInitial": "1",
+                    "lastNameInitial": "K",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "patientStudyId": "456TKY",
+                    "studyId": "ckmcwut250238dqo94d05utk2",
+                    "sitesAccess": [
+                      {
+                        "id": "ckmcwusv90217dqo9ytvju9d7",
+                        "name": "University of Tokyo Hospital",
+                        "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                        "zipCode": "113-8655",
+                        "__typename": "Site"
+                      }
+                    ],
+                    "sex": "FEMALE",
+                    "dob": "1990-01-01T00:00:00.000Z",
+                    "createdAt": "2021-03-17T03:54:34.738Z",
+                    "updatedAt": "2021-03-17T03:54:34.738Z",
+                    "__typename": "Patient"
+                  },
+                  "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                  "visitTemplate": {
+                    "id": "ckmcwut2l0365dqo9qtopo6o1",
+                    "name": "Stomach Medication",
+                    "forms": [
+                      {
+                        "id": "formId2",
+                        "__typename": "Form"
+                      },
+                      {
+                        "id": "ckmcwut2m0373dqo9nbnigq5k",
+                        "__typename": "Form"
+                      }
+                    ],
+                    "dayOffset": 5,
+                    "isRelativeToMostRecentVisit": true,
+                    "isAdHocVisitTemplate": false,
+                    "isAdverseEvent": false,
+                    "order": 2,
+                    "studyRevision": {
+                      "id": "ckmcwut260239dqo9uzb24f9u",
+                      "__typename": "StudyRevision"
+                    },
+                    "createdAt": "2021-03-17T03:54:32.494Z",
+                    "updatedAt": "2021-03-17T03:54:32.887Z",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "VisitTemplate"
+                  },
+                  "updatedAt": "2021-03-17T03:54:34.837Z",
+                  "__typename": "Visit"
+                },
+                {
+                  "id": "ckmcwuv583654dqo9ux4pj661",
+                  "status": "UNSET",
+                  "visitDidNotOccurReason": null,
+                  "visitDate": null,
+                  "site": null,
+                  "patientId": "ckmcwuu493325dqo986n4ojac",
+                  "patient": {
+                    "id": "ckmcwuu493325dqo986n4ojac",
+                    "firstNameInitial": "M",
+                    "middleNameInitial": "1",
+                    "lastNameInitial": "L",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "patientStudyId": "321ABC",
+                    "studyId": "ckmcwut250238dqo94d05utk2",
+                    "sitesAccess": [
+                      {
+                        "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                        "name": "Bellevue Hospital",
+                        "address": "462 First Avenue, Manhattan, New York, United States",
+                        "zipCode": "10016",
+                        "__typename": "Site"
+                      }
+                    ],
+                    "sex": "MALE",
+                    "dob": "1996-02-04T00:00:00.000Z",
+                    "createdAt": "2021-03-17T03:54:33.849Z",
+                    "updatedAt": "2021-03-17T03:54:33.850Z",
+                    "__typename": "Patient"
+                  },
+                  "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                  "visitTemplate": {
+                    "id": "ckmcwut2l0365dqo9qtopo6o1",
+                    "name": "Stomach Medication",
+                    "forms": [
+                      {
+                        "id": "formId2",
+                        "__typename": "Form"
+                      },
+                      {
+                        "id": "ckmcwut2m0373dqo9nbnigq5k",
+                        "__typename": "Form"
+                      }
+                    ],
+                    "dayOffset": 5,
+                    "isRelativeToMostRecentVisit": true,
+                    "isAdHocVisitTemplate": false,
+                    "isAdverseEvent": false,
+                    "order": 2,
+                    "studyRevision": {
+                      "id": "ckmcwut260239dqo9uzb24f9u",
+                      "__typename": "StudyRevision"
+                    },
+                    "createdAt": "2021-03-17T03:54:32.494Z",
+                    "updatedAt": "2021-03-17T03:54:32.887Z",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "VisitTemplate"
+                  },
+                  "updatedAt": "2021-03-17T03:54:35.181Z",
+                  "__typename": "Visit"
+                },
+                {
+                  "id": "ckmcwuvnp3741dqo9oibdd5m8",
+                  "status": "UNSET",
+                  "visitDidNotOccurReason": null,
+                  "visitDate": null,
+                  "site": null,
+                  "patientId": "ckmcwuusx3549dqo9bj9cgyl6",
+                  "patient": {
+                    "id": "ckmcwuusx3549dqo9bj9cgyl6",
+                    "firstNameInitial": "T",
+                    "middleNameInitial": "1",
+                    "lastNameInitial": "K",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "patientStudyId": "456TKY",
+                    "studyId": "ckmcwut250238dqo94d05utk2",
+                    "sitesAccess": [
+                      {
+                        "id": "ckmcwusv90217dqo9ytvju9d7",
+                        "name": "University of Tokyo Hospital",
+                        "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                        "zipCode": "113-8655",
+                        "__typename": "Site"
+                      }
+                    ],
+                    "sex": "FEMALE",
+                    "dob": "1990-01-01T00:00:00.000Z",
+                    "createdAt": "2021-03-17T03:54:34.738Z",
+                    "updatedAt": "2021-03-17T03:54:34.738Z",
+                    "__typename": "Patient"
+                  },
+                  "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                  "visitTemplate": {
+                    "id": "ckmcwut2l0365dqo9qtopo6o1",
+                    "name": "Stomach Medication",
+                    "forms": [
+                      {
+                        "id": "formId2",
+                        "__typename": "Form"
+                      },
+                      {
+                        "id": "ckmcwut2m0373dqo9nbnigq5k",
+                        "__typename": "Form"
+                      }
+                    ],
+                    "dayOffset": 5,
+                    "isRelativeToMostRecentVisit": true,
+                    "isAdHocVisitTemplate": false,
+                    "isAdverseEvent": false,
+                    "order": 2,
+                    "studyRevision": {
+                      "id": "ckmcwut260239dqo9uzb24f9u",
+                      "__typename": "StudyRevision"
+                    },
+                    "createdAt": "2021-03-17T03:54:32.494Z",
+                    "updatedAt": "2021-03-17T03:54:32.887Z",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "VisitTemplate"
+                  },
+                  "updatedAt": "2021-03-17T03:54:35.846Z",
+                  "__typename": "Visit"
+                },
+                {
+                  "id": "visitId1",
+                  "status": "OCCURRED",
+                  "visitDidNotOccurReason": null,
+                  "visitDate": "2021-03-17T03:54:38.387Z",
+                  "site": {
+                    "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                    "name": "Bellevue Hospital",
+                    "address": "462 First Avenue, Manhattan, New York, United States",
+                    "zipCode": "10016",
+                    "__typename": "Site"
+                  },
+                  "patientId": "ckmcwuugp3436dqo95vlli40r",
+                  "patient": {
+                    "id": "ckmcwuugp3436dqo95vlli40r",
+                    "firstNameInitial": "F",
+                    "middleNameInitial": "1",
+                    "lastNameInitial": "M",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "patientStudyId": "789XYZ",
+                    "studyId": "ckmcwut250238dqo94d05utk2",
+                    "sitesAccess": [
+                      {
+                        "id": "ckmcwusv90217dqo9ytvju9d7",
+                        "name": "University of Tokyo Hospital",
+                        "address": "7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan",
+                        "zipCode": "113-8655",
+                        "__typename": "Site"
+                      },
+                      {
+                        "id": "ckmcwuswm0224dqo9zz5t0zv1",
+                        "name": "Bellevue Hospital",
+                        "address": "462 First Avenue, Manhattan, New York, United States",
+                        "zipCode": "10016",
+                        "__typename": "Site"
+                      }
+                    ],
+                    "sex": "FEMALE",
+                    "dob": "1998-12-11T00:00:00.000Z",
+                    "createdAt": "2021-03-17T03:54:34.297Z",
+                    "updatedAt": "2021-03-17T03:54:34.297Z",
+                    "__typename": "Patient"
+                  },
+                  "visitTemplateId": "ckmcwut2l0365dqo9qtopo6o1",
+                  "visitTemplate": {
+                    "id": "ckmcwut2l0365dqo9qtopo6o1",
+                    "name": "Stomach Medication",
+                    "forms": [
+                      {
+                        "id": "formId2",
+                        "__typename": "Form"
+                      },
+                      {
+                        "id": "ckmcwut2m0373dqo9nbnigq5k",
+                        "__typename": "Form"
+                      }
+                    ],
+                    "dayOffset": 5,
+                    "isRelativeToMostRecentVisit": true,
+                    "isAdHocVisitTemplate": false,
+                    "isAdverseEvent": false,
+                    "order": 2,
+                    "studyRevision": {
+                      "id": "ckmcwut260239dqo9uzb24f9u",
+                      "__typename": "StudyRevision"
+                    },
+                    "createdAt": "2021-03-17T03:54:32.494Z",
+                    "updatedAt": "2021-03-17T03:54:32.887Z",
+                    "studyRevisionId": "ckmcwut260239dqo9uzb24f9u",
+                    "__typename": "VisitTemplate"
+                  },
+                  "updatedAt": "2021-03-17T03:54:38.390Z",
+                  "__typename": "Visit"
+                }
+              ]
+            },
+            "updatedAt": "2021-03-17T03:54:38.390Z",
+            "__typename": "Visit"
+          },
+          "visitId": "visitId1",
+          "isLocked": false,
+          "createdAt": "2021-03-17T03:54:38.490Z",
+          "updatedAt": "2021-03-17T03:54:38.642Z",
+          "isNotAvailable": false,
+          "formFieldNotAvailableReasonId": null,
+          "formFieldRejectedReasonId": null,
+          "markUpRejectedReasonId": null,
+          "markUpDetachReasonId": null,
+          "otherReason": null,
+          "formFieldGroup": {
+            "id": "fieldGroup2",
+            "name": "Diastolic",
+            "order": 0,
+            "isMultiEntry": false,
+            "prepopulateFromPreviousVisit": false,
+            "requiresSourceCapture": true,
+            "keywords": "heart",
+            "showFieldConditionId": null,
+            "createdAt": "2021-03-17T03:54:32.494Z",
+            "formId": "formId2",
+            "__typename": "FormFieldGroup"
+          },
+          "formFieldGroupId": "fieldGroup2",
+          "formFieldResponses": [],
+          "sourceCaptureResponses": [],
+          "markUpRegions": null,
+          "markUpImageUrl": null,
+          "parsedMarkUpRegions": [],
+          "rawDetectedTexts": "",
+          "processedDetectedTexts": "",
+          "detectedValue": null,
+          "sourceCapture": {
+            "id": "sc1",
+            "detectedTexts": "",
+            "manuallyRedacted": false,
+            "isVerified": false,
+            "image": {
+              "id": "imageId1",
+              "label": "Test image",
+              "thumbnail": "https://media.discordapp.net/attachments/788659803219951616/803962110912233472/unknown.png",
+              "width": 1039,
+              "height": 1787,
+              "fileId": "fileId1",
+              "createdAt": "2021-03-17T03:54:37.105Z",
+              "__typename": "Image"
+            },
+            "createdAt": "2021-03-17T03:54:38.589Z",
+            "updatedAt": "2021-03-17T03:54:38.589Z",
+            "imageId": "imageId1",
+            "formId": "formId2",
+            "visitId": "visitId1",
+            "__typename": "SourceCapture"
+          },
+          "sourceCaptureId": "sc1",
+          "markedBy": null,
+          "markedById": null,
+          "markedAt": null,
+          "__typename": "FormFieldGroupResponse"
+        }
+      ],
+      "__typename": "SourceCapture"
+    }
+  ],
+  "userVisitData": [
+    {
+      "status": "UNATTACHED",
+      "label": "Unattached",
+      "isComplete": false,
+      "todoPhrase": "item(s) that need to be captured",
+      "quickActions": {
+        "editReattach": false,
+        "detach": false,
+        "snippetMaking": false,
+        "markAsNoAnswer": true,
+        "editSnippet": false,
+        "acceptReject": false,
+        "dataEntry": false,
+        "verification": false,
+        "query": true,
+        "addReason": false,
+        "__typename": "WithSourceQuickAction"
+      },
+      "__typename": "WithSourceUserVisitData"
+    },
+    {
+      "status": "MARK_UP_REJECTED",
+      "label": "Rejected Snippet",
+      "isComplete": false,
+      "todoPhrase": "rejected item(s) that need snippet fixed",
+      "quickActions": {
+        "editReattach": false,
+        "detach": true,
+        "snippetMaking": false,
+        "markAsNoAnswer": false,
+        "editSnippet": false,
+        "acceptReject": false,
+        "dataEntry": false,
+        "verification": false,
+        "query": false,
+        "addReason": false,
+        "__typename": "WithSourceQuickAction"
+      },
+      "__typename": "WithSourceUserVisitData"
+    },
+    {
+      "status": "ATTACHED",
+      "label": "Attached",
+      "isComplete": false,
+      "todoPhrase": "item(s) that need to be marked-up",
+      "quickActions": {
+        "editReattach": true,
+        "detach": true,
+        "snippetMaking": true,
+        "markAsNoAnswer": false,
+        "editSnippet": false,
+        "acceptReject": false,
+        "dataEntry": false,
+        "verification": false,
+        "query": true,
+        "addReason": false,
+        "__typename": "WithSourceQuickAction"
+      },
+      "__typename": "WithSourceUserVisitData"
+    },
+    {
+      "status": "ATTACHED",
+      "label": "Pending Snippet",
+      "isComplete": false,
+      "todoPhrase": "item(s) that need to be marked-up",
+      "quickActions": {
+        "editReattach": true,
+        "detach": true,
+        "snippetMaking": true,
+        "markAsNoAnswer": false,
+        "editSnippet": false,
+        "acceptReject": false,
+        "dataEntry": false,
+        "verification": false,
+        "query": true,
+        "addReason": false,
+        "__typename": "WithSourceQuickAction"
+      },
+      "__typename": "WithSourceUserVisitData"
+    },
+    {
+      "status": "MARKED_UP",
+      "label": "Pending Snippet Acceptance",
+      "isComplete": false,
+      "todoPhrase": "item(s) that are pending acceptance",
+      "quickActions": {
+        "editReattach": false,
+        "detach": false,
+        "snippetMaking": false,
+        "markAsNoAnswer": false,
+        "editSnippet": true,
+        "acceptReject": true,
+        "dataEntry": false,
+        "verification": false,
+        "query": true,
+        "addReason": false,
+        "__typename": "WithSourceQuickAction"
+      },
+      "__typename": "WithSourceUserVisitData"
+    },
+    {
+      "status": "NEED_REASON_NOT_AVAILABLE",
+      "label": "Reason Required",
+      "isComplete": false,
+      "todoPhrase": "item(s) that requre additional response",
+      "quickActions": {
+        "editReattach": false,
+        "detach": false,
+        "snippetMaking": false,
+        "markAsNoAnswer": false,
+        "editSnippet": false,
+        "acceptReject": false,
+        "dataEntry": false,
+        "verification": false,
+        "query": false,
+        "addReason": true,
+        "__typename": "WithSourceQuickAction"
+      },
+      "__typename": "WithSourceUserVisitData"
+    },
+    {
+      "status": "MARK_UP_ACCEPTED",
+      "label": "Snippet Accepted",
+      "isComplete": false,
+      "todoPhrase": "item(s) that are pending data entry",
+      "quickActions": {
+        "editReattach": false,
+        "detach": false,
+        "snippetMaking": false,
+        "markAsNoAnswer": false,
+        "editSnippet": false,
+        "acceptReject": false,
+        "dataEntry": true,
+        "verification": false,
+        "query": true,
+        "addReason": false,
+        "__typename": "WithSourceQuickAction"
+      },
+      "__typename": "WithSourceUserVisitData"
+    },
+    {
+      "status": "MARK_UP_ACCEPTED",
+      "label": "Pending Data Entry",
+      "isComplete": false,
+      "todoPhrase": "item(s) that are pending data entry",
+      "quickActions": {
+        "editReattach": false,
+        "detach": false,
+        "snippetMaking": false,
+        "markAsNoAnswer": false,
+        "editSnippet": false,
+        "acceptReject": false,
+        "dataEntry": true,
+        "verification": false,
+        "query": true,
+        "addReason": false,
+        "__typename": "WithSourceQuickAction"
+      },
+      "__typename": "WithSourceUserVisitData"
+    },
+    {
+      "status": "FILLED",
+      "label": "Data Entry Complete",
+      "isComplete": false,
+      "todoPhrase": "item(s) that are pending verification",
+      "quickActions": {
+        "editReattach": false,
+        "detach": false,
+        "snippetMaking": false,
+        "markAsNoAnswer": false,
+        "editSnippet": false,
+        "acceptReject": false,
+        "dataEntry": false,
+        "verification": true,
+        "query": true,
+        "addReason": false,
+        "__typename": "WithSourceQuickAction"
+      },
+      "__typename": "WithSourceUserVisitData"
+    },
+    {
+      "status": "FILLED",
+      "label": "Pending Verification",
+      "isComplete": false,
+      "todoPhrase": "item(s) that are pending verification",
+      "quickActions": {
+        "editReattach": false,
+        "detach": false,
+        "snippetMaking": false,
+        "markAsNoAnswer": false,
+        "editSnippet": false,
+        "acceptReject": false,
+        "dataEntry": false,
+        "verification": true,
+        "query": true,
+        "addReason": false,
+        "__typename": "WithSourceQuickAction"
+      },
+      "__typename": "WithSourceUserVisitData"
+    },
+    {
+      "status": "REJECTED",
+      "label": "Rejected",
+      "isComplete": false,
+      "todoPhrase": "rejected item(s) that need ...",
+      "quickActions": {
+        "editReattach": false,
+        "detach": false,
+        "snippetMaking": false,
+        "markAsNoAnswer": false,
+        "editSnippet": false,
+        "acceptReject": false,
+        "dataEntry": false,
+        "verification": false,
+        "query": false,
+        "addReason": false,
+        "__typename": "WithSourceQuickAction"
+      },
+      "__typename": "WithSourceUserVisitData"
+    },
+    {
+      "status": "ACCEPTED",
+      "label": "Verification Complete",
+      "isComplete": true,
+      "todoPhrase": null,
+      "quickActions": {
+        "editReattach": false,
+        "detach": false,
+        "snippetMaking": false,
+        "markAsNoAnswer": false,
+        "editSnippet": false,
+        "acceptReject": false,
+        "dataEntry": false,
+        "verification": false,
+        "query": false,
+        "addReason": false,
+        "__typename": "WithSourceQuickAction"
+      },
+      "__typename": "WithSourceUserVisitData"
+    }
+  ]
+}

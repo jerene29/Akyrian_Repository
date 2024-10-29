@@ -1,0 +1,9 @@
+exports[`S-09-036 > Intervisit Spatial Map > Column Dots > is yellow for anchor for non anchor #0`] =
+{
+  "backgroundColor": "rgb(239, 189, 113)"
+};
+
+exports[`S-09-036 > Intervisit Spatial Map > Column Dots > is blue for regular visit #0`] =
+{
+  "backgroundColor": "rgb(87, 123, 241)"
+};
