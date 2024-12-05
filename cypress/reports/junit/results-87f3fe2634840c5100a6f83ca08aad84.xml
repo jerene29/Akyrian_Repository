@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="62.737" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-11-07T07:54:05" tests="0" file="cypress\e2e\Studyconfig.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Akyrian SDE FLow" timestamp="2024-11-07T07:54:05" tests="1" time="62.728" failures="1">
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Source Capture user" time="0.000" classname="Login to the Portal and login as Source Capture user">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[class=&apos;EmptyQuestion__Container-gQdEUg ia-dYzZ&apos;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[class='EmptyQuestion__Container-gQdEUg ia-dYzZ']`, but never found it.
+    at Context.eval (webpack://akyrian_project_automation/./cypress/support/commands.js:281:9)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

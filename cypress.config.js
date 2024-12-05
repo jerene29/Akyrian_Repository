@@ -8,7 +8,7 @@ module.exports = defineConfig({
     reportDir: 'cypress/reports',
     overwrite: false,
     html: true,
-    json: false,
+    json: true,
     reporterEnabled: 'cypress-mochawesome-reporter, mocha-junit-reporter',
     mochaJunitReporterReporterOptions: {
       mochaFile: 'cypress/reports/junit/results-[hash].xml',

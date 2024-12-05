@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="235.960" tests="7" failures="7">
+  <testsuite name="Root Suite" timestamp="2024-11-06T13:58:43" tests="0" file="cypress\e2e\SDEFLow.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Akyrian SDE FLow" timestamp="2024-11-06T13:58:43" tests="7" time="235.950" failures="7">
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Source Capture user" time="0.000" classname="Login to the Portal and login as Source Capture user">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=&quot;right-chip-AgeAT&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy="right-chip-AgeAT"]`, but never found it.
+    at Context.eval (webpack://akyrian_project_automation/./cypress/e2e/SDEFLow.cy.js:101:3)]]></failure>
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Source Markup user" time="0.000" classname="Login to the Portal and login as Source Markup user">
+      <failure message="`cy.visit()` failed trying to load:
+
+https://qa.akyrian.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  &gt; Error: getaddrinfo ENOTFOUND qa.akyrian.com
+
+Common situations why this would fail:
+  - you don&apos;t have internet access
+  - you forgot to run / boot your web server
+  - your web server isn&apos;t accessible
+  - you have weird network configuration settings on your computer" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed trying to load:
+
+https://qa.akyrian.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: getaddrinfo ENOTFOUND qa.akyrian.com
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+    at <unknown> (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:131450:74)
+    at visitFailedByErr (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:130849:12)
+    at <unknown> (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:131449:11)
+    at tryCatcher (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromise0 (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1621:10)
+    at Promise._settlePromises (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1697:18)
+    at _drainQueueStep (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2407:12)
+    at _drainQueue (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2400:9)
+    at Async._drainQueues (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2416:5)
+    at Async.drainQueues (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2286:14)
+From Your Spec Code:
+    at Context.eval (webpack://akyrian_project_automation/./cypress/support/commands.js:74:3)
+
+From Node.js Internals:
+  Error: getaddrinfo ENOTFOUND qa.akyrian.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)]]></failure>
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Snippet Assessment" time="0.000" classname="Login to the Portal and login as Snippet Assessment">
+      <failure message="`cy.visit()` failed trying to load:
+
+https://qa.akyrian.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  &gt; Error: getaddrinfo ENOTFOUND qa.akyrian.com
+
+Common situations why this would fail:
+  - you don&apos;t have internet access
+  - you forgot to run / boot your web server
+  - your web server isn&apos;t accessible
+  - you have weird network configuration settings on your computer" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed trying to load:
+
+https://qa.akyrian.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: getaddrinfo ENOTFOUND qa.akyrian.com
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+    at <unknown> (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:131450:74)
+    at visitFailedByErr (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:130849:12)
+    at <unknown> (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:131449:11)
+    at tryCatcher (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromise0 (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1621:10)
+    at Promise._settlePromises (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1697:18)
+    at _drainQueueStep (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2407:12)
+    at _drainQueue (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2400:9)
+    at Async._drainQueues (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2416:5)
+    at Async.drainQueues (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2286:14)
+From Your Spec Code:
+    at Context.eval (webpack://akyrian_project_automation/./cypress/support/commands.js:87:3)
+
+From Node.js Internals:
+  Error: getaddrinfo ENOTFOUND qa.akyrian.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)]]></failure>
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Data Entry A" time="0.000" classname="Login to the Portal and login as Data Entry A">
+      <failure message="`cy.visit()` failed trying to load:
+
+https://qa.akyrian.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  &gt; Error: getaddrinfo ENOTFOUND qa.akyrian.com
+
+Common situations why this would fail:
+  - you don&apos;t have internet access
+  - you forgot to run / boot your web server
+  - your web server isn&apos;t accessible
+  - you have weird network configuration settings on your computer" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed trying to load:
+
+https://qa.akyrian.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: getaddrinfo ENOTFOUND qa.akyrian.com
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+    at <unknown> (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:131450:74)
+    at visitFailedByErr (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:130849:12)
+    at <unknown> (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:131449:11)
+    at tryCatcher (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromise0 (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1621:10)
+    at Promise._settlePromises (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1697:18)
+    at _drainQueueStep (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2407:12)
+    at _drainQueue (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2400:9)
+    at Async._drainQueues (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2416:5)
+    at Async.drainQueues (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2286:14)
+From Your Spec Code:
+    at Context.eval (webpack://akyrian_project_automation/./cypress/support/commands.js:98:3)
+
+From Node.js Internals:
+  Error: getaddrinfo ENOTFOUND qa.akyrian.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)]]></failure>
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Data Entry B" time="0.000" classname="Login to the Portal and login as Data Entry B">
+      <failure message="`cy.visit()` failed trying to load:
+
+https://qa.akyrian.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  &gt; Error: getaddrinfo ENOTFOUND qa.akyrian.com
+
+Common situations why this would fail:
+  - you don&apos;t have internet access
+  - you forgot to run / boot your web server
+  - your web server isn&apos;t accessible
+  - you have weird network configuration settings on your computer" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed trying to load:
+
+https://qa.akyrian.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: getaddrinfo ENOTFOUND qa.akyrian.com
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+    at <unknown> (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:131450:74)
+    at visitFailedByErr (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:130849:12)
+    at <unknown> (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:131449:11)
+    at tryCatcher (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromise0 (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1621:10)
+    at Promise._settlePromises (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1697:18)
+    at _drainQueueStep (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2407:12)
+    at _drainQueue (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2400:9)
+    at Async._drainQueues (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2416:5)
+    at Async.drainQueues (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2286:14)
+From Your Spec Code:
+    at Context.eval (webpack://akyrian_project_automation/./cypress/support/commands.js:109:3)
+
+From Node.js Internals:
+  Error: getaddrinfo ENOTFOUND qa.akyrian.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)]]></failure>
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Verification/Data Adjudicator" time="0.000" classname="Login to the Portal and login as Verification/Data Adjudicator">
+      <failure message="`cy.visit()` failed trying to load:
+
+https://qa.akyrian.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  &gt; Error: getaddrinfo ENOTFOUND qa.akyrian.com
+
+Common situations why this would fail:
+  - you don&apos;t have internet access
+  - you forgot to run / boot your web server
+  - your web server isn&apos;t accessible
+  - you have weird network configuration settings on your computer" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed trying to load:
+
+https://qa.akyrian.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: getaddrinfo ENOTFOUND qa.akyrian.com
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+    at <unknown> (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:131450:74)
+    at visitFailedByErr (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:130849:12)
+    at <unknown> (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:131449:11)
+    at tryCatcher (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromise0 (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1621:10)
+    at Promise._settlePromises (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1697:18)
+    at _drainQueueStep (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2407:12)
+    at _drainQueue (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2400:9)
+    at Async._drainQueues (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2416:5)
+    at Async.drainQueues (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2286:14)
+From Your Spec Code:
+    at Context.eval (webpack://akyrian_project_automation/./cypress/support/commands.js:120:3)
+
+From Node.js Internals:
+  Error: getaddrinfo ENOTFOUND qa.akyrian.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)]]></failure>
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as signcrf" time="0.000" classname="Login to the Portal and login as signcrf">
+      <failure message="`cy.visit()` failed trying to load:
+
+https://qa.akyrian.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  &gt; Error: getaddrinfo ENOTFOUND qa.akyrian.com
+
+Common situations why this would fail:
+  - you don&apos;t have internet access
+  - you forgot to run / boot your web server
+  - your web server isn&apos;t accessible
+  - you have weird network configuration settings on your computer" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed trying to load:
+
+https://qa.akyrian.com/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: getaddrinfo ENOTFOUND qa.akyrian.com
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+    at <unknown> (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:131450:74)
+    at visitFailedByErr (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:130849:12)
+    at <unknown> (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:131449:11)
+    at tryCatcher (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromise0 (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1621:10)
+    at Promise._settlePromises (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:1697:18)
+    at _drainQueueStep (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2407:12)
+    at _drainQueue (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2400:9)
+    at Async._drainQueues (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2416:5)
+    at Async.drainQueues (https://qa.akyrian.com/__cypress/runner/cypress_runner.js:2286:14)
+From Your Spec Code:
+    at Context.eval (webpack://akyrian_project_automation/./cypress/support/commands.js:132:3)
+
+From Node.js Internals:
+  Error: getaddrinfo ENOTFOUND qa.akyrian.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

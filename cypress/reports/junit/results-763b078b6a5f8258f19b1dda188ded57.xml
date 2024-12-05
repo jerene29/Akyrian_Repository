@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="982.496" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-11-06T15:22:29" tests="0" file="cypress\e2e\SDEFLow.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Akyrian SDE FLow" timestamp="2024-11-06T15:22:29" tests="7" time="982.485" failures="0">
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Source Capture user" time="331.388" classname="Login to the Portal and login as Source Capture user">
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Source Markup user" time="122.700" classname="Login to the Portal and login as Source Markup user">
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Snippet Assessment" time="173.841" classname="Login to the Portal and login as Snippet Assessment">
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Data Entry A" time="168.381" classname="Login to the Portal and login as Data Entry A">
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Data Entry B" time="90.884" classname="Login to the Portal and login as Data Entry B">
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Verification/Data Adjudicator" time="41.502" classname="Login to the Portal and login as Verification/Data Adjudicator">
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as signcrf" time="48.032" classname="Login to the Portal and login as signcrf">
+    </testcase>
+  </testsuite>
+</testsuites>
