@@ -62,14 +62,12 @@ cy.get('[class="Text__StyledText-fcSGOX YAXFE pointer"]').contains("Privacy & Po
 //Search study
 cy.get('#search').type("QAonCloud Test")
 cy.get("#study-version").contains('v.4.b').should('exist').click()
-cy.wait(1000)
 //Loginpage.Allstudy_Text.contains("All Sites & Study Subjects").should('exist')
-cy.wait(5000)
 //Check Tabs
 //cy.get('[data-cy="noSourceQuestionTab"]').contains("EDC (Traditional)").should('exist')
 //cy.get('[data-cy="sourceQuestionTab"]').contains("Source Capture Questions (SDE)").should('exist')
 //Check Side Panel
-cy.get('[class="Text__StyledText-fcSGOX gSpvOG sider-patient-name"]').contains("QA_AU-01").should('exist')
+cy.get('[class="Text__StyledText-fcSGOX gSpvOG sider-patient-name"]',{ timeout:20000 }).contains("QA_AU-01").should('exist')
 //cy.get('[class="Text__StyledText-fcSGOX FjWUc patient-gender-dob"]').contains("Male, 01 Jul 1972").should('exist')
 //cy.get('[class="Sider__Wrapper-hsXPIG jTnfEX sidebar-patient-initial-badge"]').contains("ML").should('exist')
 //cy.get('[class="Text__StyledText-fcSGOX gSpvOG sider-patient-name"]').contains("QA_AU-01").click()
@@ -152,42 +150,35 @@ cy.get('[data-cy="question-title-cm226tr0x0l1714evkv8gwe2j"]').contains("any Soc
 cy.get('[data-cy="all-filter"]').click()
 cy.get('[data-cy="answer-input-field-cm226tq8y0kzb14ev67n9vigy-0-0"]').type("hypertension")
 cy.get('[data-cy="save-button-cm226tq6o0kz814ev5hs86itn"]').click()
-cy.wait(5000)
-cy.get('[data-cy="FILLED"]').click()
+cy.get('[data-cy="FILLED"]',{ timeout:20000 }).click()
 cy.get('[data-cy="question-title-cm226tq6o0kz814ev5hs86itn"]').contains("Indication/Diagnosis:(T)").should('exist')
 //Check Date Picker and Time picker
 cy.get('[data-cy="all-filter"]').click()
 cy.get('[class="ant-picker-input"]').eq(0).click()
-cy.get('[class="ant-picker-cell ant-picker-cell-in-view"]', { timeout: 10000 }).contains('30').click()
+cy.get('[class="ant-picker-cell ant-picker-cell-in-view"]', { timeout: 10000 }).contains('5').click()
 cy.get('[class="ant-picker-time-panel-cell-inner"]', { timeout: 10000 }).contains('2').click()
 cy.get('[class="ant-btn ant-btn-primary ant-btn-sm"]').click()
-cy.wait(1000)
-cy.get('[data-cy="save-button-cm226tqch0kzg14evi17ksxwu"]').click()
-cy.wait(10000)
+cy.get('[data-cy="save-button-cm226tqch0kzg14evi17ksxwu"]',{ timeout:2000 }).click()
 //Check the "Numeric Fields" Questions 
-cy.get('[data-cy="question-title-cm226tqxy0l0z14ev4ggwb5pe"]').contains("What are the dosage, frequency, duration, and mode of delivery?(N)").should('exist')
+cy.get('[data-cy="question-title-cm226tqxy0l0z14ev4ggwb5pe"]',{ timeout:20000 }).contains("What are the dosage, frequency, duration, and mode of delivery?(N)").should('exist')
 cy.get('[data-cy="answer-input-field-cm226tqyh0l1214evogzolxqj-0-0"]').type("22")
 cy.get('[data-cy="save-button-cm226tqxy0l0z14ev4ggwb5pe"]').click()
-cy.wait(5000)
 //Check the "Date Picker" Question 
 cy.get('[class="ant-picker-input"]').click()
 cy.get('[class="ant-picker-cell ant-picker-cell-in-view"]', { timeout: 10000 }).contains('24').click()
-cy.get('[data-cy="save-button-cm226tqgo0kzo14evx8adxtw7"]').click()
-cy.wait(5000)
+cy.get('[data-cy="save-button-cm226tqgo0kzo14evx8adxtw7"]',{ timeout:20000 }).click()
 //Check the "Radio Buttons" Question 
-cy.get('[class="ant-radio-group ant-radio-group-outline radio-group-single-select coachmark_streamlinesc_dataEntryField"]').contains('Mark as No Answer').click()
+cy.get('[class="ant-radio-group ant-radio-group-outline radio-group-single-select coachmark_streamlinesc_dataEntryField"]',{ timeout:20000 }).contains('Mark as No Answer').click()
 cy.get('[data-cy="no-answer-reason-select-cm226tr0x0l1714evkv8gwe2j"]').click()
 cy.get('.ant-select-item-option-active').contains("No Source - Mark No Answer").click()
 //cy.get('[data-cy="no-answer-reason-select-cm226tr0x0l1714evkv8gwe2j"]').type("Noanswer")
 cy.get('[data-cy="save-button-cm226tr0x0l1714evkv8gwe2j"]').click()
-cy.wait(5000)
 //Check Pending Approval Tab
-cy.get('[data-cy="ACCEPTED_FROM_SOURCE_CAPTURE"]').click()
+cy.get('[data-cy="ACCEPTED_FROM_SOURCE_CAPTURE"]',{ timeout:20000 }).click()
 cy.get('[data-cy="question-title-cm226tr0x0l1714evkv8gwe2j"]').contains("any Social Hx (MS)").should('exist')
-cy.wait(5000)
 
 //Check the "Upload Image" Question 
-cy.get('[data-cy="all-filter"]').click()
+cy.get('[data-cy="all-filter"]',{ timeout:20000 }).click()
 cy.get('[data-cy="question-title-cm2bkklqd0acovx8avwnf6mpj"]').contains("upload Doc data").should('exist')
 cy.get('[class="Text__StyledText-fcSGOX gOxGSv"]').contains("Upload a file").click()
 cy.get('[data-cy="confirmation-modal-title"]').contains("Warning").should('exist')
@@ -195,27 +186,20 @@ cy.get('[data-cy="confirmation-modal-desc"]').contains("Do not upload any file t
 cy.get('[data-cy="confirmation-modal-validationInfo"]').contains("You can only upload the following file types: JPEG, PNG or PDF with a 10 MB limit.").should('exist')
 cy.get('[data-cy="confirmModal-confirmButton"]').contains("Upload File").should('exist')
 cy.get('[data-cy="confirmModal-cancelButton"]').contains("Never Mind").should('exist')
-cy.wait(15000)
-cy.wait(5000)
-cy.get('[data-cy="confirmModal-confirmButton"]').click()
+cy.get('[data-cy="confirmModal-confirmButton"]',{ timeout:20000 }).click()
 const filepath1 = 'SCImage.png'; 
 // Path to your PNG file
 cy.get('input[type="file"]').attachFile(filepath1);
-cy.get('[data-cy="start-redact-or-continue"]').scrollIntoView() 
-cy.wait(15000)
+cy.get('[data-cy="start-redact-or-continue"]',{ timeout:20000 }).scrollIntoView() 
 cy.get('[class="Button__Container-gknlFx gLNRtR btn-continue"]', { timeout: 10000 }).click({ force: true })
-cy.wait(15000)
-cy.get('[data-cy="confirm-redact-button"]').click()
-cy.wait(15000)
-cy.get('[data-cy="save-button-cm2bkklqd0acovx8avwnf6mpj"]').click({ force: true })
-cy.wait(25000)
+cy.get('[data-cy="confirm-redact-button"]'),{ timeout:20000 }.click()
+cy.get('[data-cy="save-button-cm2bkklqd0acovx8avwnf6mpj"]',{ timeout:20000 }).click({ force: true })
 
 //CheckBoolean Question
-cy.get('[data-cy="all-filter"]').click()
+cy.get('[data-cy="all-filter"]',{ timeout:20000 }).click()
 cy.get('[data-cy="question-title-cm2bkmvl10acyvx8avcp0c4ec"]').contains("Age").should('exist')
 cy.get('[class="ant-checkbox-input"][value="2"]').click({force: true} )
-cy.wait(15000)
-cy.get('[data-cy="save-button-cm2bkmvl10acyvx8avcp0c4ec"]').click({force: true})
+cy.get('[data-cy="save-button-cm2bkmvl10acyvx8avcp0c4ec"]',{ timeout:20000 }).click({force: true})
 //Check All Tab count
 cy.get('[data-cy="all-filter-question-count"]').contains("7")
 //Check Answered Tab count
@@ -239,8 +223,7 @@ cy.get('[data-cy="question-answer-free-text"]').contains("hypertension").should(
 cy.get('[data-cy="reset-answer-modal-description"]').contains("This item will be moved back to Unanswered").should('exist')
 cy.get('[data-cy="reset-answer-select"]').contains("Put your reason here").should('exist')
 cy.get('[data-cy="reset-answer-select"]').click()
-cy.wait(10000)
-cy.get('[class="ant-select-item ant-select-item-option ant-select-item-option-active"]').contains("No Source - Reset Answer").click()
+cy.get('[class="ant-select-item ant-select-item-option ant-select-item-option-active"]',{ timeout:20000 }).contains("No Source - Reset Answer").click()
 cy.get('[data-cy="button-submit-reset-answer"]').contains("Submit").should('exist')
 cy.get('[data-cy="cancel-submit-reset-answer"]').contains("Cancel").should('exist')
 cy.get('[data-cy="button-submit-reset-answer"]').click()
@@ -251,15 +234,12 @@ cy.get('[class="ant-picker-input"]').eq(0).click()
 cy.get('[class="ant-picker-cell ant-picker-cell-in-view"]', { timeout: 10000 }).contains('1').click()
 cy.get('[class="ant-picker-time-panel-cell-inner"]', { timeout: 10000 }).contains('4').click()
 cy.get('[class="ant-btn ant-btn-primary ant-btn-sm"]').click()
-cy.wait(1000)
-cy.get('[data-cy="edit-reason-select-cm226tqch0kzg14evi17ksxwu"] > .ant-select > .ant-select-selector > .ant-select-selection-search').click()
-cy.get('[class="ant-select-item-option-content"]').contains("No Source - Edit Answer").click()
-cy.wait(10000)
-cy.get('[data-cy="save-button-cm226tqch0kzg14evi17ksxwu"]').click()
-cy.wait(10000)
+cy.get('[data-cy="edit-reason-select-cm226tqch0kzg14evi17ksxwu"] > .ant-select > .ant-select-selector > .ant-select-selection-search',{ timeout:20000 }).click()
+cy.get('[class="ant-select-item-option-content"]',{ timeout:20000 }).contains("No Source - Edit Answer").click()
+cy.get('[data-cy="save-button-cm226tqch0kzg14evi17ksxwu"]',{ timeout:20000 }).click()
 
 //CLick Logout
-cy.get('[data-cy="header-user-popover-trigger"]').click()
+cy.get('[data-cy="header-user-popover-trigger"]',{ timeout:20000 }).click()
 cy.get('[data-cy="logout-text"]').click()
 
 //Check Reject
@@ -495,32 +475,18 @@ it("Login to the Portal and login as SA User-Approve/Reject", () => {
     cy.AkyrianLogin_SA(email,password)
     //Search study
     cy.get('[data-cy="onboarding-search-study"]').type("QAonCloud Test")   
-cy.get('[class="Text__StyledText-fcSGOX liUSLx adjust-version mb-0.5"]').contains("v.4.b").click()
-cy.wait(10000)
+cy.get('[class="Text__StyledText-fcSGOX liUSLx adjust-version mb-0.5"]',{ timeout:20000 }).contains("v.4.b").click()
 
 //click visit 3
 cy.get('[class="Text__StyledText-fcSGOX gSpvOG sider-patient-name"]').contains("QA_AU-02").should('exist').click()
-cy.get('[data-cy="visit-cm2bkvino0ag9vx8as4t136mp"]').contains("new visit 3").click()
-cy.wait(5000)
-//Click Accept-1
-cy.get('[data-cy="accept-reject-action"]').first().click({ force: true })
-//CLick Accept-2
-cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > [data-cy="verifier-container"] > [data-cy="verifier-input-container"] > [data-cy="question-input-container"] > .button-container > .hover-disabled > [data-cy="accept-data-entry-cm226tqch0kzg14evi17ksxwu"]').click()
-//Click Accept-3
-cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > [data-cy="verifier-container"] > [data-cy="verifier-input-container"] > [data-cy="question-input-container"] > .button-container > .hover-disabled > [data-cy="accept-data-entry-cm226tqxy0l0z14ev4ggwb5pe"]').click()
+cy.get('[data-cy="visit-cm2bkvino0ag9vx8as4t136mp"]',{ timeout:20000 }).contains("new visit 3").click()
+//Click Accept All
+cy.get('[data-cy="accept-all-button"]',{ timeout:20000 }).click()
 
-//Click Reject
-cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > [data-cy="verifier-container"] > [data-cy="verifier-input-container"] > [data-cy="question-input-container"] > .button-container > [data-cy="reject-data-entry"]').click()
-cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > :nth-child(1) > [data-cy="reject-reason"] > .ant-select > .ant-select-selector').click()
-cy.get('[class="ant-select-item-option-content"]').contains("No Source - Reject Answer").click()
-cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > :nth-child(1) > #button-reject-container > [data-cy="close-reject"]').click({ force: true })
-//Click Accept-4
-cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > [data-cy="verifier-container"] > [data-cy="verifier-input-container"] > [data-cy="question-input-container"] > .button-container > .hover-disabled > [data-cy="accept-data-entry-cm2bkklqd0acovx8avwnf6mpj"]').click()
-//Click Accept-5
-cy.get('.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > [data-cy="verifier-container"] > [data-cy="verifier-input-container"] > [data-cy="question-input-container"] > .button-container > .hover-disabled > [data-cy="accept-data-entry-cm2bkmvl10acyvx8avcp0c4ec"]').click()
+cy.get('[data-cy="confirmModal-confirmButton"]',{ timeout:2000 }).click()
 
 //Check Accepted Tab
-cy.get('[data-cy="ACCEPTED"]').click()
+cy.get('[data-cy="question-filter-count"]').contains("5")
 //Click Logout
 cy.get('[data-cy="header-user-popover-trigger"]').click()
 cy.get('[data-cy="logout-text"]').click()

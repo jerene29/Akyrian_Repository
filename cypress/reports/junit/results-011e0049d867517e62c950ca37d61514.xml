@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="86.685" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2024-11-05T07:41:18" tests="0" file="cypress\e2e\EDCFlow.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="EDC Flow" timestamp="2024-11-05T07:41:18" tests="2" time="86.681" failures="2">
+    <testcase name="EDC Flow Login to the Portal and login as SC User" time="0.000" classname="Login to the Portal and login as SC User">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;v.4.b&apos; within the element: &lt;p#study-version.Text__StyledText-fcSGOX.liUSLx.adjust-version.mb-0.5&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'v.4.b' within the element: <p#study-version.Text__StyledText-fcSGOX.liUSLx.adjust-version.mb-0.5> but never did.
+    at Context.eval (webpack://akyrian_project_automation/./cypress/e2e/EDCFlow.cy.js:64:43)]]></failure>
+    </testcase>
+    <testcase name="EDC Flow Login to the Portal and login as SA User-Approve/Reject" time="0.000" classname="Login to the Portal and login as SA User-Approve/Reject">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=&quot;accept-reject-action&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy="accept-reject-action"]`, but never found it.
+    at Context.eval (webpack://akyrian_project_automation/./cypress/e2e/EDCFlow.cy.js:506:3)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

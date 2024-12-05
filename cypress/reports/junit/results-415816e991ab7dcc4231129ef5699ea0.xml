@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="310.548" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-11-05T11:24:06" tests="0" file="cypress\e2e\EDCFlow.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="EDC Flow" timestamp="2024-11-05T11:24:06" tests="2" time="310.542" failures="1">
+    <testcase name="EDC Flow Login to the Portal and login as SC User" time="253.377" classname="Login to the Portal and login as SC User">
+    </testcase>
+    <testcase name="EDC Flow Login to the Portal and login as SA User-Approve/Reject" time="0.000" classname="Login to the Portal and login as SA User-Approve/Reject">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `.slick-active &gt; :nth-child(1) &gt; [data-cy=&quot;modal-container&quot;] &gt; [data-cy=&quot;carousel-container&quot;] &gt; [data-cy=&quot;content-outer-container&quot;] &gt; [data-cy=&quot;monitor-flow-body&quot;] &gt; [data-cy=&quot;verifier-container&quot;] &gt; [data-cy=&quot;verifier-input-container&quot;] &gt; [data-cy=&quot;question-input-container&quot;] &gt; .button-container &gt; .hover-disabled &gt; [data-cy=&quot;accept-data-entry-cm2bkmvl10acyvx8avcp0c4ec&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `.slick-active > :nth-child(1) > [data-cy="modal-container"] > [data-cy="carousel-container"] > [data-cy="content-outer-container"] > [data-cy="monitor-flow-body"] > [data-cy="verifier-container"] > [data-cy="verifier-input-container"] > [data-cy="question-input-container"] > .button-container > .hover-disabled > [data-cy="accept-data-entry-cm2bkmvl10acyvx8avcp0c4ec"]`, but never found it.
+    at Context.eval (webpack://akyrian_project_automation/./cypress/e2e/EDCFlow.cy.js:510:3)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

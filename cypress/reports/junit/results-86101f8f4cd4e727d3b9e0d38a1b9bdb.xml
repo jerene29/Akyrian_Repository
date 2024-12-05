@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="299.893" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-11-09T10:04:11" tests="0" file="cypress\e2e\EDCFlow.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="EDC Flow" timestamp="2024-11-09T10:04:11" tests="2" time="299.889" failures="1">
+    <testcase name="EDC Flow Login to the Portal and login as SC User" time="248.003" classname="Login to the Portal and login as SC User">
+    </testcase>
+    <testcase name="EDC Flow Login to the Portal and login as SA User-Approve/Reject" time="0.000" classname="Login to the Portal and login as SA User-Approve/Reject">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=&quot;visit-cm2bkvino0ag9vx8as4t136mp&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy="visit-cm2bkvino0ag9vx8as4t136mp"]`, but never found it.
+    at Context.eval (webpack://akyrian_project_automation/./cypress/e2e/EDCFlow.cy.js:503:3)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="990.774" tests="7" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-11-06T14:25:27" tests="0" file="cypress\e2e\SDEFLow.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Akyrian SDE FLow" timestamp="2024-11-06T14:25:27" tests="7" time="990.762" failures="1">
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Source Capture user" time="350.555" classname="Login to the Portal and login as Source Capture user">
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Source Markup user" time="126.058" classname="Login to the Portal and login as Source Markup user">
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Snippet Assessment" time="177.848" classname="Login to the Portal and login as Snippet Assessment">
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Data Entry A" time="169.352" classname="Login to the Portal and login as Data Entry A">
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Data Entry B" time="92.244" classname="Login to the Portal and login as Data Entry B">
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Verification/Data Adjudicator" time="48.168" classname="Login to the Portal and login as Verification/Data Adjudicator">
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as signcrf" time="0.000" classname="Login to the Portal and login as signcrf">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=&quot;visit-cm2n70apo08rxzdk30b7k6b49&quot;][data-visit-name=&quot;AUTOMATION-sign-CRF&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy="visit-cm2n70apo08rxzdk30b7k6b49"][data-visit-name="AUTOMATION-sign-CRF"]`, but never found it.
+    at Context.eval (webpack://akyrian_project_automation/./cypress/e2e/SDEFLow.cy.js:399:6)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

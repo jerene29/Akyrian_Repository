@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="258.219" tests="7" failures="7">
+  <testsuite name="Root Suite" timestamp="2024-11-06T12:59:23" tests="0" file="cypress\e2e\SDEFLow.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Akyrian SDE FLow" timestamp="2024-11-06T12:59:23" tests="7" time="258.214" failures="7">
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Source Capture user" time="0.000" classname="Login to the Portal and login as Source Capture user">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=&quot;visit-cm2n70apo08rxzdk30b7k6b49&quot;][data-visit-name=&quot;AUTOMATION-sign-CRF&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy="visit-cm2n70apo08rxzdk30b7k6b49"][data-visit-name="AUTOMATION-sign-CRF"]`, but never found it.
+    at Context.eval (webpack://akyrian_project_automation/./cypress/e2e/SDEFLow.cy.js:46:7)]]></failure>
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Source Markup user" time="0.000" classname="Login to the Portal and login as Source Markup user">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[class=&quot;Text__StyledText-fcSGOX gSpvOG sider-patient-name&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[class="Text__StyledText-fcSGOX gSpvOG sider-patient-name"]`, but never found it.
+    at Context.eval (webpack://akyrian_project_automation/./cypress/e2e/SDEFLow.cy.js:152:5)]]></failure>
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Snippet Assessment" time="0.000" classname="Login to the Portal and login as Snippet Assessment">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=&quot;visit-cm2n70apo08rxzdk30b7k6b49&quot;][data-visit-name=&quot;AUTOMATION-sign-CRF&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy="visit-cm2n70apo08rxzdk30b7k6b49"][data-visit-name="AUTOMATION-sign-CRF"]`, but never found it.
+    at Context.eval (webpack://akyrian_project_automation/./cypress/e2e/SDEFLow.cy.js:224:4)]]></failure>
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Data Entry A" time="0.000" classname="Login to the Portal and login as Data Entry A">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=&quot;visit-cm2n70apo08rxzdk30b7k6b49&quot;][data-visit-name=&quot;AUTOMATION-sign-CRF&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy="visit-cm2n70apo08rxzdk30b7k6b49"][data-visit-name="AUTOMATION-sign-CRF"]`, but never found it.
+    at Context.eval (webpack://akyrian_project_automation/./cypress/e2e/SDEFLow.cy.js:288:8)]]></failure>
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Data Entry B" time="0.000" classname="Login to the Portal and login as Data Entry B">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=&quot;visit-cm2n70apo08rxzdk30b7k6b49&quot;][data-visit-name=&quot;AUTOMATION-sign-CRF&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy="visit-cm2n70apo08rxzdk30b7k6b49"][data-visit-name="AUTOMATION-sign-CRF"]`, but never found it.
+    at Context.eval (webpack://akyrian_project_automation/./cypress/e2e/SDEFLow.cy.js:341:6)]]></failure>
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Verification/Data Adjudicator" time="0.000" classname="Login to the Portal and login as Verification/Data Adjudicator">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=&quot;visit-cm2n70apo08rxzdk30b7k6b49&quot;][data-visit-name=&quot;AUTOMATION-sign-CRF&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy="visit-cm2n70apo08rxzdk30b7k6b49"][data-visit-name="AUTOMATION-sign-CRF"]`, but never found it.
+    at Context.eval (webpack://akyrian_project_automation/./cypress/e2e/SDEFLow.cy.js:374:6)]]></failure>
+    </testcase>
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as signcrf" time="0.000" classname="Login to the Portal and login as signcrf">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[data-cy=&quot;visit-cm2n70apo08rxzdk30b7k6b49&quot;][data-visit-name=&quot;AUTOMATION-sign-CRF&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy="visit-cm2n70apo08rxzdk30b7k6b49"][data-visit-name="AUTOMATION-sign-CRF"]`, but never found it.
+    at Context.eval (webpack://akyrian_project_automation/./cypress/e2e/SDEFLow.cy.js:398:6)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
