@@ -1,0 +1,22 @@
+import { test, expect } from '@playwright/test';
+test.describe('BookingWebsite', () => {
+test('Booking.com', async ({ page }) => {
+// Visit the URL
+await page.goto('https://www.booking.com/');
+ //Click Sign In
+await page.locator('[class="c1af8b38aa"]', { timeout: 10000 }).click()
+await page.fill('[placeholder="Enter your email address"]','divyadhileepan1415@gmail.com', { timeout: 10000 })
+await page.locator('[class="_NMeW4uFOFNEfBkJI2X6 C24NCf0IyZRFJk2ahDeL DtlkOQAQuawAsxgcEUCY hevwrAzGPCvQfFqIYsie IP81aoz9pM28K7Vclo49 C3wGW7ffSXVm3VGRJTzO"]', { timeout: 10000 }).click()
+await page.pause(); 
+//check the screen after Login
+const button = await page.locator('#accommodations');
+const Stays = await button.textContent();
+console.log(Stays.trim());
+const button1 = await page.locator('#flights');
+const Flights = await button1.textContent();
+console.log(Flights.trim());
+const button2 = await page.locator('#packages');
+const flightAndHotel = await button2.textContent();
+console.log(flightAndHotel.trim());
+    })
+})

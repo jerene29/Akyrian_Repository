@@ -1,0 +1,54 @@
+const { test, expect } = require('@playwright/test');
+test('To check the IRCTC portal home page', async ({ page }) => {
+
+    // Open the IRCTC portal URL
+    await page.goto('https://www.irctc.co.in/nget/train-search', { timeout: 30000 });
+    await page.waitForTimeout(10000);
+    await page.locator('[class="h_menu_drop_button hidden-xs"]').click();
+
+    
+    // The home page should have the following details:
+
+    await page.locator('text=LOGIN').nth(0).isVisible();
+    // Check for IRCTC Exclusive link
+    await page.locator('text=IRCTC EXCLUSIVE').nth(0).isVisible();
+    // Check for other menu items
+    await page.locator('text=TRAINS').isVisible();
+    await page.locator('text=LOYALTY').isVisible();
+    await page.locator('text=IRCTC eWallet').isVisible();
+    await page.locator('text=BUSES').isVisible();
+    await page.locator('text=FLIGHTS').isVisible();
+    await page.locator('text=HOTELS').isVisible();
+    await page.locator('text=HOLIDAYS').isVisible();
+    await page.locator('text=MEALS').isVisible();
+    await page.locator('text=PROMOTIONS').isVisible();
+    await page.locator('text=ALERTS').isVisible();
+    await page.locator('text=MORE').isVisible();
+    await page.locator('text=CONTACT US').isVisible();
+    await page.locator('text=HELP & SUPPORT').isVisible();
+    await page.locator('text=AGENT LOGIN').isVisible();
+
+    // Check for Hindi option
+    await page.locator('text=DAILY DEALS').isVisible();
+    await page.locator('text=हिंदी').isVisible();
+    
+
+    // Check for IRCTC logo (this may require a different selector)
+    await page.locator('img[alt="IRCTC Logo"]').isVisible();
+
+    // Check for PNR Status and Charts/Vacancy links
+    await page.locator('text=PNR STATUS').isVisible();
+    await page.locator('text=CHARTS/VACANCY').isVisible();
+
+    // Check for Book Ticket and Search functionality
+    await page.locator('text=BOOK TICKET').isVisible();
+    await page.locator('text=SEARCH').isVisible();
+
+    // Check for Easy Booking on Ask Disha
+    await page.locator('text=EASY BOOKING ON ASK DISHA').isVisible();
+
+    console.log('All elements are visible on the page.');
+
+    // Close the browser after the checks
+    await browser.close();
+})

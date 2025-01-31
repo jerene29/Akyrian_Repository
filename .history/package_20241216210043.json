@@ -1,0 +1,39 @@
+{
+  "name": "playwright-tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.0",
+    "jest-html-reporter": "^3.10.2"
+  },
+  "dependencies": {
+    "allure-playwright": "^3.0.7",
+    "express": "^4.21.1",
+    "playwright": "^1.48.2"
+  },
+  "jest":
+  {
+    "testMatch": [
+      "**/tests/**/*.spec.js",
+      "**/?(*.)+(spec|test).[tj]s?(x)"
+    ],
+    "reporters": [
+      "default",
+      ["jest-html-reporter", {
+        "pageTitle": "Test Report",
+        "outputPath": "test-report.html",
+        "includeFailureMsg": true,
+        "includeConsoleLog": true
+      }]
+    ]
+  }
+}
