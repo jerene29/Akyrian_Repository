@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="198.154" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-11-03T10:40:24" tests="0" file="cypress\e2e\Studyconfig.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Akyrian SDE FLow" timestamp="2024-11-03T10:40:24" tests="1" time="198.142" failures="0">
+    <testcase name="Akyrian SDE FLow Login to the Portal and login as Source Capture user" time="193.326" classname="Login to the Portal and login as Source Capture user">
+    </testcase>
+  </testsuite>
+</testsuites>

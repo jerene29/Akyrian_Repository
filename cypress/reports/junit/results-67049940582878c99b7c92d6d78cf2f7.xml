@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="328.965" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-11-09T10:12:04" tests="0" file="cypress\e2e\EDCFlow.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="EDC Flow" timestamp="2024-11-09T10:12:04" tests="2" time="328.956" failures="0">
+    <testcase name="EDC Flow Login to the Portal and login as SC User" time="252.732" classname="Login to the Portal and login as SC User">
+    </testcase>
+    <testcase name="EDC Flow Login to the Portal and login as SA User-Approve/Reject" time="70.380" classname="Login to the Portal and login as SA User-Approve/Reject">
+    </testcase>
+  </testsuite>
+</testsuites>

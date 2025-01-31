@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.459" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-10-25T06:48:24" tests="0" file="cypress\e2e\BasicEDCFlow.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Akyrian Login" timestamp="2024-10-25T06:48:24" tests="1" time="0.455" failures="1">
+    <testcase name="Akyrian Login Login to the Portal" time="0.000" classname="Login to the Portal">
+      <failure message="Cannot read properties of undefined (reading &apos;should&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'should')
+    at Context.eval (webpack://akyrian_project_automation/./cypress/e2e/BasicEDCFlow.cy.js:27:26)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
